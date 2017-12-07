@@ -2,16 +2,20 @@ import os, json, math
 import os.path
 from PIL import Image
 
+tf = []
+sb = 0
 'dic need array'
 nametmp = []
 sizetmp = []
 ltmp = []
+fullnames =[]
 
 
 def opf(rootdir):
     'open dir all png file except name with out'
     # for parent, dirnames, filenames in os.walk(rootdir):
-    fullnames = []
+    global sb
+    i = 0
     filenames = os.listdir(rootdir)
     for filename in filenames:
         fullname = os.path.join(rootdir, filename)
@@ -20,25 +24,20 @@ def opf(rootdir):
         fullnames.append(fullname)
         name = filename.split('.')
         nametmp.append(name[0])
-    return fullnames
+        sb += 1
 
 
-def ftoi(rootdir, x_size, y_size):
+def ftoi(x_size=200, y_size=200):
     'make picture file transform image file'
-    fullnames = opf(rootdir)
-    tf, sb = [], 0
     for i in fullnames:
         tmp = Image.open(i)
         im = tmp.resize((x_size, y_size))
         sizetmp.append(tmp.size)
         tf.append(im)
-        sb = sb + 1
-    return tf, sb
 
 
-def smarts(rootdir):
+def smarts():
     'input file path sum file number,select what best rank'
-    sb = opf(rootdir)
     n1, n2, i, l = 0, 0, 0, 0
     y = int(math.sqrt(sb))
     if n1 == sb:
@@ -58,7 +57,7 @@ def smarts(rootdir):
 
 def wrf(rootdir, ys, xs, y_size=200, x_size=200):
     'ys xs set high width,x_size and y_size set picture size'
-    tf = ftoi(x_size, y_size)
+    ftoi(y_size, x_size)
     i = 0
     base_img = Image.new('RGB', (xs * x_size, ys * y_size))
     for y in range(ys):
@@ -88,9 +87,9 @@ def c_dic(rootdir):
         json.dump(im_info, f_obj)
 
 
-
-path = r'D:\img\laji'
-test = smarts(path)
-# file path,y,x,y lenght(default 200),x width(default 200)
-wrf(path, test[0], test[1])
+path = r'D:\img\cartoon\youling'
+opf(path)
+# test = smarts()
+# # file path,y,x,y lenght(default 200),x width(default 200)
+wrf(path, 10,10,100,100 )
 c_dic(path)
