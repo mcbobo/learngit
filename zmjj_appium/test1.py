@@ -1,15 +1,20 @@
-import aircv as ac
-import os, tempfile
-
-PATH = lambda p: os.path.abspath(p)
-TEMP_FILE = PATH(tempfile.gettempdir() + "/temp_screen.png")
+# coding:utf-8
+from base import Appium_Extend
 
 
-def get_element(imobj):
-    imsrc = driver.get_screenshot_as_file(TEMP_FILE)
-    pos = ac.find_template(imsrc, imobj).get('result')
-    return pos
+class Action():
+    def __init__(self, driver):
+        self.driver = driver
+        self.base = Appium_Extend(self.driver)
 
+    def touch(self, action_name):
+        '输入路径中图片的名字点击模拟器对应的位置'
+        impath = r'D:\appium_test\zmjj\Action\%s.png' % action_name
+        self.base.get_element(impath)
 
-def get_screenshot(self):
-    self.driver.get_screenshot_as_file(TEMP_FILE)
+    def roomid(self):
+        image_box = self.base.get_screenshot_of_roomid()
+        image = self.base.image_resize(image_box,2)
+        num = self.base.get_image_number(image)
+        return num
+
