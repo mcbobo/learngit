@@ -21,7 +21,7 @@ class Appium_Extend(object):
     def screen_shot(self):
         '模拟器全屏截图'
         im_name = self.get_time()
-        filename = r'D:\appium_test\zmjj\%s.png' % im_name
+        filename = r'D:\D:\appium_test\zmjj\screen_shot\%s.png' % im_name
         self.driver.get_screenshot_as_file(filename)
 
     def get_screenshot_by_custom_size(self, box):
@@ -62,7 +62,7 @@ class Appium_Extend(object):
     def retry(self, function):
         '传入一个有返回的操作函数，重试3次'
         for i in range(3):
-            value = function
+            value = function()
             if value:
                 break
             time.sleep(2)
@@ -76,6 +76,7 @@ class Appium_Extend(object):
         return num
 
     def image_resize(self, image, image_size):
+        '图片尺寸调整'
         (x, y) = image.size
         xsize = x * image_size
         ysize = y * image_size
