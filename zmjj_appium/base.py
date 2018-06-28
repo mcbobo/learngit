@@ -49,6 +49,7 @@ class Appium_Extend(object):
         self.driver.get_screenshot_as_file(TEMP_FILE)
         imsrc = ac.imread(TEMP_FILE)
         pos = ac.find_template(imsrc, imobj, 0.7).get('result')
+        # pos = ac.find_template(imsrc, imobj, 0.7)
         return pos
 
     def get_roomid_position(self, im_path):
