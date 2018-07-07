@@ -1,8 +1,8 @@
 # coding:utf-8
 import cv2
 import numpy as np
-
-print 'loading  ...'
+import os
+# print 'loading  ...'
 
 
 def showpiclocation(img, findimg):  # 定义定位函数
@@ -12,8 +12,8 @@ def showpiclocation(img, findimg):  # 定义定位函数
     fw = findimg.shape[1]
     fh = findimg.shape[0]
     findpt = None
-    for now_h in xrange(0, h - fh):
-        for now_w in xrange(0, w - fw):
+    for now_h in range(0, h - fh):
+        for now_w in range(0, w - fw):
             comp_tz = img[now_h:now_h + fh, now_w:now_w + fw, :] - findimg
             if np.sum(comp_tz) < 1:
                 findpt = now_w, now_h
@@ -23,12 +23,12 @@ def showpiclocation(img, findimg):  # 定义定位函数
     return img
 
 
-fn = r'D:\room.jpg'
-fn2 = r'D:\button.jpg'
-myimg = cv2.imread(fn)
-myimg2 = cv2.imread(fn2)
-myimg = showpiclocation(myimg, myimg2)
-cv2.namedWindow('img')
-cv2.imshow('img', myimg)
-cv2.waitKey()
-cv2.destroyAllWindows()
+# fn = r'D:\room.jpg'
+# fn2 = r'D:\button.jpg'
+# myimg = cv2.imread(fn)
+# myimg2 = cv2.imread(fn2)
+# myimg = showpiclocation(myimg, myimg2)
+# cv2.namedWindow('img')
+# cv2.imshow('img', myimg)
+# cv2.waitKey()
+# cv2.destroyAllWindows()

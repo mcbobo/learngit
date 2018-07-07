@@ -28,7 +28,7 @@ def count_days(dt1, dt2):
 
 def test():
     for i in range(1, 3):
-        print i
+        print(i)
 
 
 if __name__ == '__main__':
