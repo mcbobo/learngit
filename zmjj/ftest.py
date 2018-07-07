@@ -1,5 +1,6 @@
 # coding:utf-8
 import sys, time, threading
+from random import randint
 from com.android.monkeyrunner import MonkeyRunner as mr
 from com.android.monkeyrunner import MonkeyDevice as md
 
@@ -32,23 +33,34 @@ def connect():
     return devices
 
 
-def ComparePic(device,path):
-    pic=device.takeSnapshot()
-    newpic=pic.getSubImage((270,180,68,89))
-    result = MonkeyRunner.loadImageFromFile(path,'png')
-    return newpic.sameAs(result,0.7)
+def ComparePic(device):
+    pic = device.takeSnapshot()
+    newpic = device.takeSnapshot()
+    return pic.sameAs(newpic, 0.9)
 
 
-def run(device):
-    device=device
-    path='D:\\appium_test\\zmjj\\screen_shot\\lala.png'
-    result = ComparePic(device,path)
-    if result:
-        device.touch(611,465,'DOWN_AND_UP')
+def touch(device):
+    x = randint(10, 880)
+    y = randint(10, 490)
+    device.touch(x, y, 'DOWN_AND_UP')
+
+
+def other(device, same):
+    # same = ComparePic(device)
+    if same:
+        device.press('KEYCODE_BACK', 'DOWN_AND_UP')
         mr.sleep(2)
-    else:
-        device.touch(32,362,'DOWN_AND_UP')
-        mr.sleep(2)
+
+
+def run(device, i=0):
+    # i = 0
+    pic = device.takeSnapshot()
+    while i < 20:
+        touch(device)
+        i += 1
+    newpic = device.takeSnapshot()
+    same = pic.sameAs(newpic, 0.9)
+    other(device, same)
 
 
 def threadingGo(dev):
@@ -56,14 +68,15 @@ def threadingGo(dev):
     len_dev = len(dev)
     for i in range(len_dev):
         name = '%s%s' % ('t', i)
-        device=dev[i]
-        name = threading.Thread(target=run, args=(device))
+        name = threading.Thread(target=run, args=(dev[i], 0))
         threads.append(name)
     return threads
 
 
 if __name__ == '__main__':
     devices_xx = connect()
+    # path = 'D:\\appium_test\\zmjj\\screen_shot\\lala.png'
+    # result = mr.loadImageFromFile(path)
     while True:
         threads = threadingGo(devices_xx)
         for t in threads:

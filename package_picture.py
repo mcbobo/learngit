@@ -21,7 +21,7 @@ def opd(rootdir):
 
 def opf(fdirp):
     'open dir all png file except name with out'
-    global num
+    # global num
     num = 0
     filenames = os.listdir(fdirp)
     for filename in filenames:
@@ -30,6 +30,7 @@ def opf(fdirp):
             continue
         fullnames.append(fullname)
         num += 1
+    return num
 
 
 def ftoi(bili):
@@ -41,27 +42,35 @@ def ftoi(bili):
         x_size = int(bili * imtmp.size[0])
         y_size = int(bili * imtmp.size[1])
         im = imtmp.resize((x_size, y_size))
+        '裁剪图片'
+        box = (2, 0, x_size - 2, y_size)
+        im = imtmp.crop(box)
         sizetmp.append(im.size)
         tf.append(im)
 
 
-def smarts():
+def smarts(num):
     '确定合并的长和宽'
     n1, n2, i, l = 0, 0, 0, 0
     y = int(math.sqrt(num))
-    if n1 == num:
-        return y, y
+    if num == 2:
+        return 1, 2
+    elif num == 1:
+        return 1, 1
     else:
-        while n1 < num:
-            n1 = y * (y + i)
-            i += 1
-        while n2 < num:
-            n2 = (y - 1) * (y + l)
-            l += 1
-        if (n2 - num) > (n1 - num) or n2 == n1:
-            return y, y + (i - 1)
+        if y * y == num:
+            return y, y
         else:
-            return y - 1, y + (l - 1)
+            while n1 < num:
+                n1 = y * (y + i)
+                i += 1
+            while n2 < num:
+                n2 = (y - 1) * (y + l)
+                l += 1
+            if (n2 - num) > (n1 - num) or n2 == n1:
+                return y, y + (i - 1)
+            else:
+                return y - 1, y + (l - 1)
 
 
 def c_dic(fdirp, new_dic):
@@ -72,27 +81,55 @@ def c_dic(fdirp, new_dic):
         json.dump(new_dic, f_obj)
 
 
+def baseimg_size(x, y, img_size):
+    base_xsize = 0
+    for i in range(x):
+        (xsize, ysize) = img_size[i]
+        base_xsize += xsize
+    base_ysize = ysize * y
+    return base_xsize, base_ysize
+
+
 def wrf(fdirp, ys, xs, bili):
     new_dic = {}
     ftoi(bili)
-    (x_size, y_size) = sizetmp[0]
+    '旧的基础图大小'
+    # (x_size, y_size) = sizetmp[0]
     i = 0
-    base_img = Image.new('RGBA', (xs * x_size, ys * y_size))
+    '新的拼合图的总大小'
+    base_imgsize = baseimg_size(xs, ys, sizetmp)
+    base_img = Image.new('RGBA', base_imgsize)
+    '这个是写死的，图大小用上面的'
+    # base_img = Image.new('RGBA', (xs * x_size, ys * y_size))
     for y in range(ys):
+        '新的操作'
+        sumxsize = 0
         for x in range(xs):
             try:
                 # x_size = sizetmp[0][0]
                 # y_size = sizetmp[0][1]
-                box = (x * x_size, y * y_size, (x + 1) * x_size, (y + 1) * y_size)
+                '新的基础图大小'
+                (x_size, y_size) = sizetmp.pop(0)
+                '新的box算法'
+                box_xsize0 = sumxsize
+                box_xsize1 = sumxsize = sumxsize + x_size
+                box_ysize0 = y * y_size
+                box_ysize1 = (y + 1) * y_size
+                box = (box_xsize0, box_ysize0, box_xsize1, box_ysize1)
+                # box = (x * x_size, y * y_size, (x + 1) * x_size, (y + 1) * y_size)
                 base_img.paste(tf.pop(0), box)
-                lc = x * x_size, y * y_size
-                new_dic[i] = {'size': sizetmp.pop(0), 'location': lc}
+                lc = box_xsize0, box_ysize0
+                '旧的，sizetmp改一下，直接用新的基础图大小'
+                new_dic[i] = {'size': (x_size, y_size), 'location': lc}
+                # new_dic[i] = {'size': sizetmp.pop(0), 'location': lc}
             except IndexError, e:
                 print e
             i += 1
-    # img_name = fdirp.split('\\')
-    # base_img.save(fdirp + r'\%s.png' % img_name)
-    base_img.save(fdirp + r'\out.png')
+    '大图新名字'
+    img_name = fdirp.split('\\')
+    base_img.save(fdirp + r'\%s.png' % img_name[-1])
+    '大图旧名字'
+    # base_img.save(fdirp + r'\out.png')
     c_dic(fdirp, new_dic)
 
 
@@ -101,16 +138,16 @@ def dirsm():
     bili = float(raw_input('请输入合并图片的比例：'))
     opd(path)
     for i in fdir:
-        opf(i)
-        x, y = smarts()[0], smarts()[1]
+        num = opf(i)
+        x, y = smarts(num)
         wrf(i, x, y, bili)
 
 
 def filesm():
     path = raw_input('请输入您要合并的路径：')
     bili = float(raw_input('请输入合并图片的比例：'))
-    opf(path)
-    x, y = smarts()[0], smarts()[1]
+    num = opf(path)
+    x, y = smarts(num)
     wrf(path, x, y, bili)
 
 

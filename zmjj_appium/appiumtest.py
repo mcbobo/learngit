@@ -1,7 +1,8 @@
 # coding=utf-8
 import time
 from appium import webdriver
-from test1 import get_element
+from base import Appium_Extend
+from capability import driver
 
 # # def setup():
 # cmd1 = "appium -a 127.0.0.1 -p 4723 –U 621MECQE3E3HU --no-reset"
@@ -9,19 +10,12 @@ from test1 import get_element
 
 # appium -a 127.0.0.1 -p 4723  –U  6207febc --no-reset  设置appium环境
 
-desired_caps = {}
-desired_caps['platformName'] = 'Android'
-desired_caps['platformVersion'] = '5.1.1'
-desired_caps['deviceName'] = 'Q71'
-desired_caps['app'] = 'com.zhimengsports.zmpt'
-desired_caps['appActivity'] = 'org.cocos2dx.javascript.AppActivity'
-
-driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-time.sleep(5)
-friend_element = r'D:\obj.png'
-pos = get_element(friend_element, driver)
-time.sleep(2)
-driver.tap([pos], 100)
+d = Appium_Extend(driver)
+time.sleep(10)
+loginv_path = r'D:\test.png'
+pos = d.get_element(loginv_path)
+print pos
+# d.touch(loginv_path)
 time.sleep(5)
 # driver.close_app()
 # driver.launch_app()
@@ -45,4 +39,4 @@ time.sleep(5)
 #
 # driver.find_element_by_name("=").click()
 
-driver.quit()
+# driver.quit()
