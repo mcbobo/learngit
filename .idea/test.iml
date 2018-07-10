@@ -5,12 +5,18 @@
       <sourceFolder url="file://$MODULE_DIR$/zmjj_appium" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/zmjj" isTestSource="false" />
+<<<<<<< HEAD
+      <sourceFolder url="file://$MODULE_DIR$/autotest" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.5.0 (D:\python\python.exe)" jdkType="Python SDK" />
+=======
       <sourceFolder url="file://$MODULE_DIR$/web_test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ai" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/airtest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/appiumtest" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7.14 (C:\Python27\python2.exe)" jdkType="Python SDK" />
+>>>>>>> 222d7a73d82ffc2a1843ca797c2db0fcac62f9d6
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
