@@ -8,8 +8,9 @@ from selenium.webdriver.support.ui import Select
 
 class TestCreatedailymtt(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(10)
+        # self.driver.set_window_size(1920, 1080)
         url = r'http://test.gytycn.com/zmpt_system_manage/index.php/Home/MatchManage/societyMatch.html'
         self.driver.get(url)
 
@@ -46,12 +47,12 @@ class TestCreatedailymtt(unittest.TestCase):
         # select.select_by_visible_text("1")
         driver.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/form/div[11]/div[1]/div/input').send_keys(
             r'D:\OneKeyBak\backup\desktop\000.xlsx')
-        driver.find_element_by_id('save').click()
+        # driver.find_element_by_id('save').click()
         sleep(5)
 
-    def tearDown(self):
-        driver = self.driver
-        driver.quit()
+    # def tearDown(self):
+    #     driver = self.driver
+    #     driver.quit()
 
 
 if __name__ == '__main__':

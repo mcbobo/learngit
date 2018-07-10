@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/web_test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ai" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/airtest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/appiumtest" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 2.7.14 (C:\Python27\python2.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

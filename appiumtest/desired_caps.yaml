@@ -1,0 +1,9 @@
+platformName: Android
+platformVersion: 4.4.4
+deviceName: 127.0.0.1:21533
+#app: D:\img\package\zmpt_holdem_test.apk
+noReset: False
+appPackage: com.zhimengsports.zmpt
+appActivity: org.cocos2dx.javascript.AppActivity
+ip: 127.0.0.1
+port: 4723
