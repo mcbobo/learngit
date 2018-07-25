@@ -51,17 +51,17 @@ class TestCreatedailymtt(unittest.TestCase):
         select = Select(driver.find_element_by_css_selector("[name='add_jgcs']"))
         select.select_by_visible_text("1")
         '奖励分配模式选择'
-        # select = Select(driver.find_element_by_css_selector("[name='add_price_put']"))
-        # select.select_by_visible_text("自定义")
+        select = Select(driver.find_element_by_css_selector("[name='add_price_put']"))
+        select.select_by_visible_text("自定义")
         driver.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/form/div[11]/div[1]/div/input').send_keys(
-            r'D:\OneKeyBak\backup\desktop\000.xlsx')
+            r'D:\OneKeyBak\backup\desktop\reward\实物大奖.xlsx')
         '服务费比例'
         driver.find_element_by_id('add_service_price').send_keys('10')
         '奖励竞技分'
         # driver.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/form/div[13]/div[1]/div[2]/input[1]').clear()
         # driver.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/form/div[13]/div[1]/div[2]/input[1]').send_keys(
         #     '0')
-        driver.find_element_by_id('save').click()
+        # driver.find_element_by_id('save').click()
 
     def tearDown(self):
         driver = self.driver

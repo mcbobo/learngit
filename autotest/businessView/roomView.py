@@ -1,19 +1,21 @@
 import logging
-from common.common_fun import Common,NoSuchElementException
+from common.common_fun import Common, NoSuchElementException
 from common.desired_caps import appium_desired
+
+
 # from selenium.webdriver.common.by import By
 
 class RoomView(Common):
-    friendBtn=r""
-    createBtn=r""
+    friendBtn = r""
+    createBtn = r""
 
-    def create_room(self,room_type):
+    def create_room(self, room_type):
         self.check_updateBtn()
         self.check_loginBtn()
         self.check_sign_inBtn()
 
         logging.info('============create_room_action==============')
-        logging.info('roomType is:%s' %room_type)
+        logging.info('roomType is:%s' % room_type)
         self.find_element(room_type)
 
         logging.info('====start create room====')
@@ -21,13 +23,13 @@ class RoomView(Common):
 
         logging.info('create room finished!')
 
-    def get_into_room(self,roomid):
+    def get_into_room(self, room_id):
         logging.info('=====get into room====')
         self.find_element(self.friendBtn)
-        for i in roomid:
-            self.tap_roomid(i)
-        self.tap_roomid('ok')
-        logging.info('tap roomid finished!')
+        for i in room_id:
+            self.tap_room_id(i)
+        self.tap_room_id('ok')
+        logging.info('tap room_id finished!')
 
     def check_roomStatus(self):
         logging.info('====check_loginStatus======')
@@ -54,10 +56,9 @@ class RoomView(Common):
         self.driver.find_element(*self.tip_commit).click()
 
 
-
 if __name__ == '__main__':
-    driver=appium_desired()
-    l=RoomView(driver)
-    l.login_action('自学网2018','zxw2018')
+    driver = appium_desired()
+    l = RoomView(driver)
+    l.login_action('自学网2018', 'zxw2018')
     # l.login_action('自学网2018','34454')
     l.check_loginStatus()

@@ -32,7 +32,7 @@ class Appium_Extend(object):
         # newImage.save(TEMP_FILE)
         return newImage
 
-    def get_screenshot_of_roomid(self):
+    def get_screenshot_of_room_id(self):
         '自定义截取范围，得到一个大概的房间id位置的图片'
         self.driver.get_screenshot_as_file(TEMP_FILE)
         image = Image.open(TEMP_FILE)
@@ -52,7 +52,7 @@ class Appium_Extend(object):
         # pos = ac.find_template(imsrc, imobj, 0.7)
         return pos
 
-    def get_roomid_position(self, im_path):
+    def get_room_id_position(self, im_path):
         '根据路径图片得到房间id在模拟器上的坐标'
         imobj = ac.imread(im_path)
         self.driver.get_screenshot_as_file(TEMP_FILE)

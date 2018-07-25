@@ -1,33 +1,37 @@
 from baseView.baseView import BaseView
 from selenium.common.exceptions import NoSuchElementException
+from common.desired_caps import appium_desired
 import logging
-import time, os
+import time
+import os
 import csv
 import yaml
 
+
 class Common(BaseView):
-    loginBtn = r""
-    sign_inBtn = r""
+    loginBtn = r"../picture/loginBtn.png"
+    sign_inBtn = r"../picture/sign_inBtn.png"
     updateBtn = r""
 
     def check_loginBtn(self):
         logging.info('==========check_loginBtn=========')
+
         try:
-            loginBtn = self.driver.find_element(self.loginBtn)
+            button = self.find_element(self.loginBtn)
         except NoSuchElementException:
             logging.info('no loginBtn')
         else:
-            loginBtn.click()
+            self.driver.tap(button)
 
     def check_sign_inBtn(self):
         logging.info('=========check sign_inBtn=============')
 
         try:
-            sign_inBtn = self.driver.find_element(self.sign_inBtn)
+            button = self.find_element(self.sign_inBtn)
         except NoSuchElementException:
             logging.info('no sign_inBtn')
         else:
-            sign_inBtn.click()
+            self.driver.tap(button)
 
     def get_size(self):
         x = self.driver.get_window_size()['width']
@@ -72,12 +76,12 @@ class Common(BaseView):
     def check_updateBtn(self):
         logging.info('====check_update====')
         try:
-            element = self.driver.find_element(self.updateBtn)
+            element = self.find_element(self.updateBtn)
         except NoSuchElementException:
             pass
         else:
             logging.info('update version')
-            element.click()
+            self.driver.tap(element)
 
     def get_csv_data(self, csv_file, line):
         logging.info('=====get_csv_data======')
@@ -87,21 +91,22 @@ class Common(BaseView):
                 if index == line:
                     return row
 
-    def tap_roomid(self,num):
+    def tap_room_id(self, num):
         with open('../config/room_num.yaml', 'r', encoding='utf-8') as file:
-            roomid = yaml.load(file)
+            room_id = yaml.load(file)
         base_dir = os.path.dirname(os.path.dirname(__file__))
-        roomid_path = os.path.join(base_dir, 'roomid', roomid[num])
-        self.find_element(roomid_path)
+        room_id_path = os.path.join(base_dir, 'picture', 'number', room_id[num])
+        self.find_element(room_id_path)
 
 
 if __name__ == '__main__':
-    # driver=appium_desired()
-    # com=Common(driver)
+    # driver = appium_desired()
+    # com = Common(driver)
     # com.check_loginBtn()
-    # # com.check_sign_inBtn()
+    # com.check_sign_inBtn()
     # com.swipeLeft()
     # com.getScreenShot('startApp')
+    # com.tap_room_id(9)
 
     list = ["这", "是", "一/个", "测试", "数据"]
     # for i in range(len(list)):

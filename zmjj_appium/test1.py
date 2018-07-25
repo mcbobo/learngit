@@ -12,8 +12,8 @@ class Action():
         impath = r'D:\appium_test\zmjj\Action\%s.png' % action_name
         self.base.get_element(impath)
 
-    def roomid(self):
-        image_box = self.base.get_screenshot_of_roomid()
+    def room_id(self):
+        image_box = self.base.get_screenshot_of_room_id()
         image = self.base.image_resize(image_box,2)
         num = self.base.get_image_number(image)
         return num

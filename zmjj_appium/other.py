@@ -58,7 +58,7 @@ def find_element(imobj):
     return pos
 
 
-# image_filepath = r'D:\roomid.png'
+# image_filepath = r'D:\room_id.png'
 # newImage.save(image_filepath)
 # img = cv2.imread(image_filepath)
 # cv2.imshow("Image", img)

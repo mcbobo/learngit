@@ -10,7 +10,7 @@ logging = logging.getLogger()
 
 
 def appium_desired():
-    with open('../config/kyb_caps.yaml', 'r', encoding='utf-8') as file:
+    with open(r'../config/kyb_caps.yaml', 'r', encoding='utf-8') as file:
         data = yaml.load(file)
 
     desired_caps = {}

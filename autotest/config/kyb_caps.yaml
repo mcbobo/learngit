@@ -1,14 +1,14 @@
 platformName: Android
 #模拟器
 platformVersion: 4.4.4
-deviceName: 127.0.0.1:62025
+deviceName: 127.0.0.1:21533
 
 #mx4真机
 #platformVersion: 5.1
 #udid: 750BBKL22GDN
 #deviceName: MX4
 
-appname: kaoyan3.1.0.apk
+appname: zmpt_holdem_test.apk
 noReset: False
 unicodeKeyboard: True
 resetKeyboard: True
