@@ -9,7 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/autotest/baseView" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/autotest/common" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.4.3 (C:\Python34\python3.exe)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.5.0 (C:\Users\jgb\AppData\Local\Programs\Python\Python35\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
