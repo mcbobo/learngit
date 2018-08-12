@@ -4,10 +4,11 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 
-def insert_img(driver,filename):
-    func_path=os.path.dirname(__file__)
+
+def insert_img(driver, filename):
+    func_path = os.path.dirname(__file__)
     # print(func_path)
-    base_dir=os.path.dirname(func_path)
+    base_dir = os.path.dirname(func_path)
     # print(base_dir)
 
     # 将路径转化为字符串
@@ -17,28 +18,28 @@ def insert_img(driver,filename):
     base_dir = base_dir.replace('\\', '/')
     # print(base_dir)
 
-    base=base_dir.split('/Website')[0]
+    base = base_dir.split('/Website')[0]
 
     # print(base)
-    filepath=base+'/Website/test_report/screenshot/'+filename
+    filepath = base + '/Website/test_report/screenshot/' + filename
     # print(filepath)
     driver.get_screenshot_as_file(filepath)
 
+
 def send_mail(latest_report):
-    f=open(latest_report,'rb')
-    mail_content=f.read()
+    f = open(latest_report, 'rb')
+    mail_content = f.read()
     f.close()
 
     smtpserver = 'smtp.163.com'
 
     user = 'yuexiaolu2015@163.com'
-    password = '...' #根据自己邮箱密码来设置
+    password = '...'  # 根据自己邮箱密码来设置
 
     sender = 'yuexiaolu2015@163.com'
     receives = ['yuexiaolu2015@126.com', 'yuexiaolu2015@sina.com']
 
     subject = 'Web Selenium 自动化测试报告'
-
 
     msg = MIMEText(mail_content, 'html', 'utf-8')
     msg['Subject'] = Header(subject, 'utf-8')
@@ -55,6 +56,7 @@ def send_mail(latest_report):
     smtp.quit()
     print("Send email end!")
 
+
 def latest_report(report_dir):
     lists = os.listdir(report_dir)
     print(lists)
@@ -69,6 +71,6 @@ def latest_report(report_dir):
 
 
 if __name__ == '__main__':
-    driver=webdriver.Firefox()
+    driver = webdriver.Firefox()
     driver.get("http://www.sogou.com")
-    insert_img(driver,'sougou.png')
+    insert_img(driver, 'sougou.png')
