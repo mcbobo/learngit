@@ -74,18 +74,25 @@ def image_processing(img_name):
     return img_black
 
 
+def image_to_str(img):
+    naked_photo = image_processing(img)
+    code = pytesseract.image_to_string(naked_photo, lang="eng", config="-psm 7")
+    return code
+
+
 if __name__ == '__main__':
-    st = time.time()
-    p = r'D:\idt2.png'
+    # st = time.time()
+    p = r'D:\magnet.png'
     # img = image_resize(p)
     # img = contrast_image(img)
     # img = black_image(img)
     # img = image_denoising(img)
-    p = cv2.imread(p)
-    img = image_processing(p)
-    str_img = pytesseract.image_to_string(img, lang="eng", config="-psm 7")
-    print('code:%s,type:%s' % (str_img, type(str_img)))
-    et = time.time()
-    print('total time:%s' % (et - st))
-    cv2.imshow('image', img)
-    cv2.waitKey(0)
+    img = cv2.imread(p)
+    # img = image_processing(p)
+    string = pytesseract.image_to_string(img)
+    # print('code:%s,type:%s' % (str_img, type(str_img)))
+    # et = time.time()
+    # print('total time:%s' % (et - st))
+    # cv2.imshow('image', img)
+    # cv2.waitKey(0)
+    print(string)
