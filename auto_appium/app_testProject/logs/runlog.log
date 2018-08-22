@@ -587,3 +587,56 @@
 2018-08-20 15:40:54,170 loginView.py[line:37] INFO =====check_account_alert====
 2018-08-20 15:40:58,541 loginView.py[line:45] INFO close tip_commit
 2018-08-20 15:41:00,379 loginView.py[line:34] INFO login finished!
+2018-08-21 11:41:05,770 desired_caps.py[line:32] INFO start app...
+2018-08-21 11:42:11,809 desired_caps.py[line:32] INFO start app...
+2018-08-21 11:42:38,646 desired_caps.py[line:32] INFO start app...
+2018-08-21 11:42:47,563 loginView.py[line:22] INFO ============login_action==============
+2018-08-21 11:42:47,563 loginView.py[line:23] INFO click loginBtn
+2018-08-21 11:42:50,716 loginView.py[line:26] INFO username is:13726221317
+2018-08-21 11:43:01,454 loginView.py[line:30] INFO password is:zmjj123456
+2018-08-21 15:23:36,052 desired_caps.py[line:32] INFO start app...
+2018-08-21 15:23:42,447 loginView.py[line:22] INFO ============login_action==============
+2018-08-21 15:23:42,447 loginView.py[line:23] INFO click loginBtn
+2018-08-21 15:23:44,824 loginView.py[line:26] INFO username is:13726221317
+2018-08-21 15:23:51,836 loginView.py[line:30] INFO password is:zmjj123456
+2018-08-21 15:26:06,473 desired_caps.py[line:32] INFO start app...
+2018-08-21 15:26:14,571 loginView.py[line:22] INFO ============login_action==============
+2018-08-21 15:26:14,571 loginView.py[line:23] INFO click loginBtn
+2018-08-21 15:26:17,353 loginView.py[line:26] INFO username is:13726221317
+2018-08-21 15:26:23,713 loginView.py[line:30] INFO password is:zmjj123456
+2018-08-21 15:26:41,299 loginView.py[line:40] INFO =====check_account_alert====
+2018-08-21 15:26:46,711 loginView.py[line:37] INFO login finished!
+2018-08-21 15:34:38,922 desired_caps.py[line:32] INFO start app...
+2018-08-21 15:34:54,279 desired_caps.py[line:32] INFO start app...
+2018-08-21 15:34:59,624 loginView.py[line:52] INFO ====check_loginStatus======
+2018-08-21 15:34:59,905 loginView.py[line:57] ERROR login Fail!
+2018-08-21 15:34:59,905 common_fun.py[line:50] INFO get login fail screenshot
+2018-08-21 15:40:39,525 desired_caps.py[line:32] INFO start app...
+2018-08-21 15:40:45,355 loginView.py[line:52] INFO ====check_loginStatus======
+2018-08-21 15:43:55,029 desired_caps.py[line:32] INFO start app...
+2018-08-21 15:44:00,382 loginView.py[line:52] INFO ====check_loginStatus======
+2018-08-21 15:44:08,724 loginView.py[line:61] INFO login success!
+2018-08-21 16:36:30,193 desired_caps.py[line:32] INFO start app...
+2018-08-21 16:36:35,903 loginView.py[line:53] INFO ====check_loginStatus======
+2018-08-21 16:36:48,422 loginView.py[line:62] INFO login success!
+2018-08-21 16:36:48,422 loginView.py[line:67] INFO =====logout_action======
+2018-08-21 16:39:36,187 desired_caps.py[line:32] INFO start app...
+2018-08-21 16:39:42,137 loginView.py[line:53] INFO ====check_loginStatus======
+2018-08-21 16:39:54,263 loginView.py[line:62] INFO login success!
+2018-08-21 16:39:54,263 loginView.py[line:67] INFO =====logout_action======
+2018-08-21 16:48:06,407 desired_caps.py[line:32] INFO start app...
+2018-08-21 16:48:12,055 loginView.py[line:53] INFO ====check_loginStatus======
+2018-08-21 16:48:32,123 loginView.py[line:58] ERROR login Fail!
+2018-08-21 16:48:32,123 common_fun.py[line:50] INFO get login fail screenshot
+2018-08-21 16:53:07,182 desired_caps.py[line:32] INFO start app...
+2018-08-21 16:53:12,757 loginView.py[line:53] INFO ====check_loginStatus======
+2018-08-21 16:53:17,082 loginView.py[line:61] INFO login success!
+2018-08-21 16:53:22,088 loginView.py[line:67] INFO =====logout_action======
+2018-08-22 10:45:45,467 desired_caps.py[line:32] INFO start app...
+2018-08-22 10:46:05,273 desired_caps.py[line:32] INFO start app...
+2018-08-22 10:46:12,192 loginView.py[line:53] INFO ====check_loginStatus======
+2018-08-22 10:46:19,339 loginView.py[line:61] INFO login success!
+2018-08-22 10:46:44,495 desired_caps.py[line:32] INFO start app...
+2018-08-22 10:46:51,201 loginView.py[line:53] INFO ====check_loginStatus======
+2018-08-22 10:47:02,028 loginView.py[line:61] INFO login success!
+2018-08-22 10:47:02,872 loginView.py[line:67] INFO =====logout_action======

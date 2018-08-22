@@ -1,6 +1,6 @@
 from baseView.baseView import BaseView
 from common.desired_caps import appium_desired
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import logging
 from selenium.webdriver.common.by import By
 import time
