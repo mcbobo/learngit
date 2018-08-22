@@ -28,6 +28,8 @@ def appium_desired():
 
     desired_caps['unicodeKeyboard'] = data['unicodeKeyboard']
     desired_caps['resetKeyboard'] = data['resetKeyboard']
+    # toast location setting
+    # desired_caps['automationName'] = 'uiautomator2'
 
     logging.info('start app...')
     driver = webdriver.Remote('http://' + str(data['ip']) + ':' + str(data['port']) + '/wd/hub', desired_caps)

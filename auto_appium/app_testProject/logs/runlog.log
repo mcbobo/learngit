@@ -640,3 +640,206 @@
 2018-08-22 10:46:51,201 loginView.py[line:53] INFO ====check_loginStatus======
 2018-08-22 10:47:02,028 loginView.py[line:61] INFO login success!
 2018-08-22 10:47:02,872 loginView.py[line:67] INFO =====logout_action======
+2018-08-22 11:39:23,359 myunit.py[line:9] INFO =====setUp====
+2018-08-22 11:39:23,368 desired_caps.py[line:32] INFO start app...
+2018-08-22 11:40:24,826 myunit.py[line:9] INFO =====setUp====
+2018-08-22 11:40:24,827 desired_caps.py[line:32] INFO start app...
+2018-08-22 11:40:28,404 test_login.py[line:21] INFO ======test_login_137=====
+2018-08-22 11:40:28,404 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 11:40:28,406 loginView.py[line:23] INFO ============login_action==============
+2018-08-22 11:40:28,406 loginView.py[line:24] INFO click loginBtn
+2018-08-22 11:40:28,583 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 11:41:39,677 myunit.py[line:9] INFO =====setUp====
+2018-08-22 11:41:39,681 desired_caps.py[line:32] INFO start app...
+2018-08-22 11:41:44,146 test_login.py[line:21] INFO ======test_login_137=====
+2018-08-22 11:41:44,147 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 11:41:44,148 loginView.py[line:23] INFO ============login_action==============
+2018-08-22 11:41:44,148 loginView.py[line:24] INFO click loginBtn
+2018-08-22 11:41:45,751 loginView.py[line:27] INFO username is:13726221317
+2018-08-22 11:41:52,211 loginView.py[line:31] INFO password is:zmjj123456
+2018-08-22 11:41:52,211 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 11:43:36,187 myunit.py[line:9] INFO =====setUp====
+2018-08-22 11:43:36,192 desired_caps.py[line:32] INFO start app...
+2018-08-22 11:43:40,362 test_login.py[line:21] INFO ======test_login_137=====
+2018-08-22 11:43:40,362 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 11:43:40,364 loginView.py[line:23] INFO ============login_action==============
+2018-08-22 11:43:40,364 loginView.py[line:24] INFO click loginBtn
+2018-08-22 11:43:41,732 loginView.py[line:27] INFO username is:13726221317
+2018-08-22 11:43:48,208 loginView.py[line:31] INFO password is:zmjj123456
+2018-08-22 11:44:04,804 loginView.py[line:41] INFO =====check_account_alert====
+2018-08-22 11:44:08,966 loginView.py[line:49] INFO close tip_commit
+2018-08-22 11:44:12,620 loginView.py[line:38] INFO login finished!
+2018-08-22 11:44:12,620 loginView.py[line:53] INFO ====check_loginStatus======
+2018-08-22 11:44:22,873 loginView.py[line:61] INFO login success!
+2018-08-22 11:44:23,049 loginView.py[line:67] INFO =====logout_action======
+2018-08-22 11:44:29,970 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 11:49:44,295 myunit.py[line:9] INFO =====setUp====
+2018-08-22 11:49:44,297 desired_caps.py[line:32] INFO start app...
+2018-08-22 11:49:48,437 test_login.py[line:21] INFO ======test_login_137=====
+2018-08-22 11:49:48,437 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 11:49:48,439 loginView.py[line:26] INFO ============login_action==============
+2018-08-22 11:49:48,439 loginView.py[line:27] INFO click loginBtn
+2018-08-22 11:49:49,905 loginView.py[line:30] INFO username is:13726221317
+2018-08-22 11:49:56,289 loginView.py[line:34] INFO password is:zmjj123456
+2018-08-22 11:50:12,693 loginView.py[line:44] INFO =====check_account_alert====
+2018-08-22 11:50:17,519 loginView.py[line:52] INFO close tip_commit
+2018-08-22 11:50:21,100 loginView.py[line:41] INFO login finished!
+2018-08-22 11:50:21,100 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 11:55:11,224 myunit.py[line:9] INFO =====setUp====
+2018-08-22 11:55:11,227 desired_caps.py[line:32] INFO start app...
+2018-08-22 11:55:15,494 test_login.py[line:30] INFO ======test_login_error=====
+2018-08-22 11:55:15,494 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 11:55:15,496 loginView.py[line:26] INFO ============login_action==============
+2018-08-22 11:55:15,496 loginView.py[line:27] INFO click loginBtn
+2018-08-22 11:55:17,111 loginView.py[line:30] INFO username is:666
+2018-08-22 11:55:23,399 loginView.py[line:34] INFO password is:222
+2018-08-22 11:55:28,400 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 11:57:46,397 myunit.py[line:9] INFO =====setUp====
+2018-08-22 11:57:46,402 desired_caps.py[line:32] INFO start app...
+2018-08-22 11:57:50,392 test_login.py[line:30] INFO ======test_login_error=====
+2018-08-22 11:57:50,393 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 11:57:50,394 loginView.py[line:26] INFO ============login_action==============
+2018-08-22 11:57:50,394 loginView.py[line:27] INFO click loginBtn
+2018-08-22 11:57:51,600 loginView.py[line:30] INFO username is:13115462598
+2018-08-22 11:57:57,846 loginView.py[line:34] INFO password is:222hhhh
+2018-08-22 11:58:14,180 loginView.py[line:44] INFO =====check_account_alert====
+2018-08-22 11:58:24,681 loginView.py[line:41] INFO login finished!
+2018-08-22 11:58:24,681 loginView.py[line:56] INFO ====check_loginStatus======
+2018-08-22 11:58:42,013 loginView.py[line:60] ERROR login Fail!
+2018-08-22 11:58:42,013 common_fun.py[line:50] INFO get login fail screenshot
+2018-08-22 11:58:42,561 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 15:07:38,354 myunit.py[line:9] INFO =====setUp====
+2018-08-22 15:07:38,356 desired_caps.py[line:34] INFO start app...
+2018-08-22 15:08:27,906 myunit.py[line:9] INFO =====setUp====
+2018-08-22 15:08:27,911 desired_caps.py[line:34] INFO start app...
+2018-08-22 15:10:06,812 myunit.py[line:9] INFO =====setUp====
+2018-08-22 15:10:06,815 desired_caps.py[line:34] INFO start app...
+2018-08-22 15:10:11,082 test_login.py[line:30] INFO ======test_login_error=====
+2018-08-22 15:10:11,082 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 15:10:11,084 loginView.py[line:36] INFO ============login_action==============
+2018-08-22 15:10:11,085 loginView.py[line:37] INFO click loginBtn
+2018-08-22 15:10:12,658 loginView.py[line:40] INFO username is:13115
+2018-08-22 15:10:19,321 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 15:10:20,200 loginView.py[line:67] INFO ====check_loginStatus======
+2018-08-22 15:10:38,051 loginView.py[line:71] ERROR login fail!
+2018-08-22 15:10:38,052 common_fun.py[line:50] INFO get login fail screenshot
+2018-08-22 15:10:38,570 loginView.py[line:45] INFO password is:222hhhh
+2018-08-22 15:10:44,083 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 15:15:14,838 myunit.py[line:9] INFO =====setUp====
+2018-08-22 15:15:14,842 desired_caps.py[line:34] INFO start app...
+2018-08-22 15:15:18,975 test_login.py[line:30] INFO ======test_login_error=====
+2018-08-22 15:15:18,976 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 15:15:18,978 loginView.py[line:36] INFO ============login_action==============
+2018-08-22 15:15:18,978 loginView.py[line:37] INFO click loginBtn
+2018-08-22 15:15:20,215 loginView.py[line:40] INFO username is:13115
+2018-08-22 15:15:27,572 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 15:15:28,294 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 15:18:25,285 myunit.py[line:9] INFO =====setUp====
+2018-08-22 15:18:25,288 desired_caps.py[line:34] INFO start app...
+2018-08-22 15:18:29,503 test_login.py[line:30] INFO ======test_login_error=====
+2018-08-22 15:18:29,504 common_fun.py[line:54] INFO =====get_csv_data======
+2018-08-22 15:18:29,506 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 15:18:29,506 loginView.py[line:39] INFO click loginBtn
+2018-08-22 15:18:30,999 loginView.py[line:42] INFO username is:13115
+2018-08-22 15:18:38,329 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 15:18:39,066 loginView.py[line:32] ERROR login fail!
+2018-08-22 15:18:39,066 common_fun.py[line:50] INFO get login fail screenshot
+2018-08-22 15:18:39,585 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 15:27:56,124 desired_caps.py[line:34] INFO start app...
+2018-08-22 15:28:00,344 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 15:28:00,344 loginView.py[line:39] INFO click loginBtn
+2018-08-22 15:28:02,020 loginView.py[line:42] INFO username is:13726221317
+2018-08-22 15:33:37,314 desired_caps.py[line:34] INFO start app...
+2018-08-22 15:33:41,553 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 15:33:41,554 loginView.py[line:39] INFO click loginBtn
+2018-08-22 15:33:43,029 loginView.py[line:42] INFO username is:13726221317
+2018-08-22 15:38:01,649 desired_caps.py[line:34] INFO start app...
+2018-08-22 15:38:05,450 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 15:38:05,451 loginView.py[line:39] INFO click loginBtn
+2018-08-22 15:38:06,959 loginView.py[line:42] INFO username is:13726221317
+2018-08-22 16:16:41,085 desired_caps.py[line:34] INFO start app...
+2018-08-22 16:16:45,426 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 16:16:45,426 loginView.py[line:39] INFO click loginBtn
+2018-08-22 16:16:47,223 loginView.py[line:42] INFO username is:13726221317
+2018-08-22 16:16:52,616 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:16:53,737 loginView.py[line:50] INFO password is:zmjj123456
+2018-08-22 16:17:09,240 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:17:09,843 loginView.py[line:61] INFO =====check_account_alert====
+2018-08-22 16:17:14,163 loginView.py[line:69] INFO close tip_commit
+2018-08-22 16:17:15,119 loginView.py[line:58] INFO login finished!
+2018-08-22 16:18:11,818 desired_caps.py[line:34] INFO start app...
+2018-08-22 16:18:22,770 common_fun.py[line:29] INFO swipeLeft
+2018-08-22 16:18:23,305 common_fun.py[line:52] INFO get startApp screenshot
+2018-08-22 16:18:38,809 desired_caps.py[line:34] INFO start app...
+2018-08-22 16:18:44,865 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 16:18:44,866 loginView.py[line:39] INFO click loginBtn
+2018-08-22 16:18:46,432 loginView.py[line:42] INFO username is:13726221317
+2018-08-22 16:18:51,758 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:18:52,714 loginView.py[line:50] INFO password is:zmjj123456
+2018-08-22 16:33:39,945 desired_caps.py[line:34] INFO start app...
+2018-08-22 16:33:45,952 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 16:33:45,952 loginView.py[line:39] INFO click loginBtn
+2018-08-22 16:33:47,346 loginView.py[line:42] INFO username is:13726221317
+2018-08-22 16:33:53,821 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:33:54,867 loginView.py[line:50] INFO password is:zmjj123456
+2018-08-22 16:33:59,547 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:34:00,153 loginView.py[line:62] INFO =====check_account_alert====
+2018-08-22 16:34:04,477 loginView.py[line:70] INFO close tip_commit
+2018-08-22 16:34:07,835 loginView.py[line:59] INFO login finished!
+2018-08-22 16:36:42,889 desired_caps.py[line:34] INFO start app...
+2018-08-22 16:36:47,260 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 16:36:47,260 loginView.py[line:39] INFO click loginBtn
+2018-08-22 16:36:49,021 loginView.py[line:42] INFO username is:13726221317
+2018-08-22 16:36:53,189 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:36:53,801 loginView.py[line:50] INFO password is:zmjj123456
+2018-08-22 16:36:57,269 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:36:58,474 loginView.py[line:62] INFO =====check_account_alert====
+2018-08-22 16:37:08,941 loginView.py[line:59] INFO login finished!
+2018-08-22 16:47:35,663 run.py[line:20] INFO start run test case...
+2018-08-22 16:47:35,663 myunit.py[line:9] INFO =====setUp====
+2018-08-22 16:47:35,666 desired_caps.py[line:34] INFO start app...
+2018-08-22 16:47:41,467 test_login.py[line:30] INFO ======test_login_error=====
+2018-08-22 16:47:41,467 common_fun.py[line:60] INFO =====get_csv_data======
+2018-08-22 16:47:41,472 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 16:47:41,472 loginView.py[line:39] INFO click loginBtn
+2018-08-22 16:47:42,978 loginView.py[line:42] INFO username is:13115
+2018-08-22 16:47:48,096 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:47:48,833 loginView.py[line:32] ERROR login fail!
+2018-08-22 16:47:48,834 common_fun.py[line:56] INFO get login fail screenshot
+2018-08-22 16:47:49,430 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 16:51:04,336 run.py[line:20] INFO start run test case...
+2018-08-22 16:51:04,336 myunit.py[line:9] INFO =====setUp====
+2018-08-22 16:51:04,338 desired_caps.py[line:34] INFO start app...
+2018-08-22 16:51:08,724 test_login.py[line:30] INFO ======test_login_error=====
+2018-08-22 16:51:08,724 common_fun.py[line:60] INFO =====get_csv_data======
+2018-08-22 16:51:08,725 loginView.py[line:38] INFO ============login_action==============
+2018-08-22 16:51:08,725 loginView.py[line:39] INFO click loginBtn
+2018-08-22 16:51:10,533 loginView.py[line:42] INFO username is:13115
+2018-08-22 16:51:15,739 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-22 16:51:16,545 loginView.py[line:32] ERROR login fail!
+2018-08-22 16:51:16,546 common_fun.py[line:56] INFO get login fail screenshot
+2018-08-22 16:51:17,096 myunit.py[line:13] INFO ====tearDown====
+2018-08-22 17:23:56,203 desired_caps.py[line:34] INFO start app...
+2018-08-22 17:24:05,081 common_fun.py[line:41] INFO swipeLeft
+2018-08-22 17:29:54,139 desired_caps.py[line:34] INFO start app...
+2018-08-22 17:30:02,582 common_fun.py[line:41] INFO swipeLeft
+2018-08-22 17:30:05,109 common_fun.py[line:41] INFO swiperight
+2018-08-22 17:30:07,656 common_fun.py[line:41] INFO swipeup
+2018-08-22 17:30:42,733 desired_caps.py[line:34] INFO start app...
+2018-08-22 17:30:52,833 common_fun.py[line:41] INFO swipeLeft
+2018-08-22 17:30:55,354 common_fun.py[line:41] INFO swiperight
+2018-08-22 17:30:57,887 common_fun.py[line:41] INFO swipeup
+2018-08-22 17:31:00,453 common_fun.py[line:41] INFO swipedown
+2018-08-22 17:32:59,024 desired_caps.py[line:34] INFO start app...
+2018-08-22 17:33:07,520 common_fun.py[line:33] INFO swipe_Left
+2018-08-22 17:33:10,049 common_fun.py[line:33] INFO swipe_right
+2018-08-22 17:33:12,626 common_fun.py[line:33] INFO swipe_up
+2018-08-22 17:33:15,131 common_fun.py[line:33] INFO swipe_down
+2018-08-22 17:38:58,088 desired_caps.py[line:34] INFO start app...
+2018-08-22 17:39:06,541 common_fun.py[line:33] INFO swipe_up
+2018-08-22 17:39:09,124 common_fun.py[line:33] INFO swipe_down
+2018-08-22 17:39:52,358 desired_caps.py[line:34] INFO start app...
+2018-08-22 17:40:02,753 common_fun.py[line:33] INFO swipe_up
+2018-08-22 17:40:05,373 common_fun.py[line:33] INFO swipe_down
+2018-08-22 17:40:06,353 common_fun.py[line:33] INFO swipe_left
+2018-08-22 17:40:09,221 common_fun.py[line:33] INFO swipe_right
