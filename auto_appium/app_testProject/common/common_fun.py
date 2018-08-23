@@ -1,18 +1,18 @@
 # coding:utf-8
-from baseView.baseView import BaseView
-from common.desired_caps import appium_desired
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-import logging
-from selenium.webdriver.common.by import By
 import time
 import os
-import csv
-import subprocess
 import yaml
+import logging
+import subprocess
+
+from baseView.baseView import BaseView
+from selenium.webdriver.common.by import By
+from common.desired_caps import appium_desired
+from selenium.common.exceptions import (NoSuchElementException, TimeoutException)
 
 
 class Common(BaseView):
-    def fast_input(self, str, element):
+    def fast_input(self, element, content):
         # 快速输入
         with open('../config/app_caps.yaml', 'r', encoding='utf-8') as file:
             data = yaml.load(file)
@@ -21,7 +21,7 @@ class Common(BaseView):
         x = data['deviceName']
         element.click()
         time.sleep(0.3)
-        subprocess.Popen('adb -s %s shell input text %s' % (x, str), shell=True)
+        subprocess.Popen('adb -s %s shell input text %s' % (x, content), shell=True)
         time.sleep(0.5)
 
     def get_size(self):
@@ -52,24 +52,15 @@ class Common(BaseView):
         logging.info('get %s screenshot' % module)
         self.driver.get_screenshot_as_file(image_file)
 
-    def get_csv_data(self, csv_file, line):
-        logging.info('=====get_csv_data======')
-        with open(csv_file, 'r', encoding='utf-8-sig') as file:
-            reader = csv.reader(file)
-            for index, row in enumerate(reader, 1):
-                if index == line:
-                    return row
+    def type_weixin_search(self, search_loc, send_loc, content):
+        self.find_element(*search_loc).click()
+        element = self.find_element(*send_loc)
+        return self.fast_input(element, content)
 
 
 if __name__ == '__main__':
     driver = appium_desired()
-    com = Common(driver)
-    time.sleep(5)
-    com.swipe_action('up')
-    time.sleep(2)
-    com.swipe_action('down')
-    com.swipe_action('left')
-    time.sleep(2)
-    com.swipe_action('right')
-    time.sleep(2)
+    # com = Common(driver)
+    # driver.find_element_by_accessibility_id('搜索').click()
+    # e1 = (By.ACCESSIBILITY_ID, '搜索')
     # com.getScreenShot('startApp')

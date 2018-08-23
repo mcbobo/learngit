@@ -1,8 +1,9 @@
 import unittest
-from BSTestRunner import BSTestRunner
 import time
 import logging
 import sys
+from BSTestRunner import BSTestRunner
+from common.function import latest_report, send_mail, get_csv_data
 
 path = 'D:\\kyb_testProject\\'
 sys.path.append(path)
@@ -19,3 +20,8 @@ with open(report_name, 'wb') as f:
     runner = BSTestRunner(stream=f, title='App Test Report', description='Android app test report')
     logging.info('start run test case...')
     runner.run(discover)
+
+last_report = latest_report()
+
+user = get_csv_data(1)
+send_mail(user[0], user[1], user[3], latest_report)

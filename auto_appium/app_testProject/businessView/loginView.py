@@ -64,7 +64,7 @@ class LoginView(Common):
             element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element(*self.tip_commit))
             # element = self.driver.find_element(*self.tip_commit)
         except TimeoutException:
-            print('pass')
+            logging.info('pass')
             pass
         else:
             logging.info('close tip_commit')
@@ -94,6 +94,9 @@ class LoginView(Common):
 
 if __name__ == '__main__':
     driver = appium_desired()
-    l = LoginView(driver)
-    l.login_action('13726221317', 'zmjj123456')
+    # l = LoginView(driver)
+    # loc = (By.ID, 'com.tencent.mm:id/d1w')
+    loc = 'com.tencent.mm:id/d1w'
+    driver.find_element(value=loc).click()
+    # l.login_action('13726221317', 'zmjj123456')
     # l.check_loginStatus()
