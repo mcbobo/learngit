@@ -1,39 +1,37 @@
-class Stack(object):
-    def __init__(self, s=list()):
-        self.s = s
-
-    def isempty(self):
-        return 1 if len(self.s) == 0 else 0
-
-    def push(self, d):
-        print('push:', d)
-        self.s.append(d)
-
-    def peek(self, index=-1):
-        if self.isempty():
-            print('empty list')
+class Time60(object):
+    def __init__(self, hr=0, min=0):
+        if isinstance(hr, str):
+            tmp = hr.split(':')
+            self.hr = int(tmp[0])
+            self.min = int(tmp[1])
         else:
-            return self.s[index]
+            self.hr = hr
+            self.min = min
 
-    def pop(self, index=-1):
-        if self.isempty():
-            print('empty list')
-        elif 'pop' in dir(self.s):
-            print('pop:', self.s.pop(index))
-        else:
-            print('no pop,peek:', self.peek(index))
-            del self.s[index]
+    def __str__(self):
+        return "%02d:%02d" % (self.hr, self.min)
 
-    def viewstack(self):
-        print(self.s)
+    def __repr__(self):
+        return repr("%02d:%02d" % (self.hr, self.min))
+
+    def __add__(self, other):
+        hr = self.hr + other.hr
+        min = self.min + other.min
+        ahr = min // 60
+        min %= 60
+        hr += ahr
+        return self.__class__(hr, min)
+
+    def __iadd__(self, other):
+        self.hr += other.hr
+        self.min += other.min
+        return self
 
 
 if __name__ == '__main__':
-    s = Stack()
-    print(s.isempty())
-    s.push(3)
-    s.viewstack()
-    s.peek()
-    s.viewstack()
-    s.pop()
-    s.viewstack()
+    print(Time60())
+    print(Time60(**{'hr': 10, 'min': 30}))
+    t1 = Time60(10, 30)
+    t1 += Time60('12:35')
+    print(t1)
+    print(Time60(10, 30) + Time60(8, 45))
