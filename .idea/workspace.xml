@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c18657-6286-464c-981c-e3453f78ff0a" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appiumtest/weixin_login.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appiumtest/11test.py" afterPath="$PROJECT_DIR$/appiumtest/11test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/free_test.py" afterPath="$PROJECT_DIR$/other/free_test.py" />
+=======
+<<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test.iml" afterPath="$PROJECT_DIR$/.idea/test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest/baseView/baseView.py" afterPath="$PROJECT_DIR$/autotest/baseView/baseView.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest/baseView/image_fun.py" afterPath="$PROJECT_DIR$/autotest/baseView/image_fun.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest/config/kyb_caps.yaml" afterPath="$PROJECT_DIR$/autotest/config/kyb_caps.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autotest/logs/runlog.log" afterPath="$PROJECT_DIR$/autotest/logs/runlog.log" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/test.iml" afterPath="$PROJECT_DIR$/.idea/test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoTest_project/Website/test_case/model/function.py" afterPath="$PROJECT_DIR$/AutoTest_project/Website/test_case/model/function.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoTest_project/Website/test_case/model/myunit.py" afterPath="$PROJECT_DIR$/AutoTest_project/Website/test_case/model/myunit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/BasePage.py" afterPath="$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/BasePage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/LoginPage.py" afterPath="$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/LoginPage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoTest_project/Website/test_case/test_login.py" afterPath="$PROJECT_DIR$/AutoTest_project/Website/test_case/test_login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AutoTest_project/driver/driver.py" afterPath="$PROJECT_DIR$/AutoTest_project/driver/driver.py" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,6 +40,7 @@
     <favorites_list name="test" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autotest/baseView/test.py">
@@ -43,6 +65,175 @@
         </entry>
       </file>
     </leaf>
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="baseView.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/autotest/baseView/baseView.py">
+              <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+                <state relative-caret-position="426">
+                  <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+                  <folding>
+                    <element signature="e#15#24#0" expanded="true" />
+                    <element signature="e#407#433#0" expanded="false" />
+                    <element signature="e#1027#1058#0" expanded="false" />
+                    <element signature="e#2694#2731#0" expanded="false" />
+=======
+                <state relative-caret-position="1007">
+                  <caret line="70" column="55" lean-forward="false" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
+                  <folding>
+                    <element signature="e#15#24#0" expanded="true" />
+                    <element signature="e#409#435#0" expanded="false" />
+                    <element signature="e#1029#1060#0" expanded="false" />
+                    <element signature="e#2821#2850#0" expanded="false" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+<<<<<<< HEAD
+          <file leaf-file-name="desired_caps.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/autotest/common/desired_caps.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="719">
+                  <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+=======
+          <file leaf-file-name="free_test.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/other/free_test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="532">
+                  <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+<<<<<<< HEAD
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="kyb_caps.yaml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/autotest/config/kyb_caps.yaml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="220">
+                  <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+=======
+          <file leaf-file-name="BasePage.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/BasePage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LoginPage.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/LoginPage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#0#23#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/AutoTest_project/Website/test_case/test_login.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="roomView.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/autotest/businessView/roomView.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="133">
+                  <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#0#14#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="freetest.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/other/freetest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="608">
+                  <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="opencv_test.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/other/opencv_test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test_create_dailymtt.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web_test/test_create_dailymtt.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#15#45#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="image_fun.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/autotest/baseView/image_fun.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1197">
+                  <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+                  <folding>
+                    <element signature="e#243#248#0" expanded="false" />
+                    <element signature="e#1006#1381#0" expanded="false" />
+                    <element signature="e#1868#1891#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="driver.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/AutoTest_project/driver/driver.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,23 +326,34 @@
         <option value="$PROJECT_DIR$/autotest/config/room_num.yaml" />
         <option value="$PROJECT_DIR$/autotest/businessView/registerView.py" />
         <option value="$PROJECT_DIR$/autotest/common/common_fun.py" />
-        <option value="$PROJECT_DIR$/autotest/config/kyb_caps.yaml" />
         <option value="$PROJECT_DIR$/autotest/common/desired_caps.py" />
         <option value="$PROJECT_DIR$/web_test/test_create_dailymtt.py" />
         <option value="$PROJECT_DIR$/autotest/baseView/test.py" />
-        <option value="$PROJECT_DIR$/autotest/baseView/image_fun.py" />
         <option value="$PROJECT_DIR$/autotest/baseView/baseView.py" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/autotest/baseView/image_fun.py" />
+        <option value="$PROJECT_DIR$/autotest/config/kyb_caps.yaml" />
+=======
+        <option value="$PROJECT_DIR$/other/free_test.py" />
+        <option value="$PROJECT_DIR$/AutoTest_project/driver/driver.py" />
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
         <option value="$PROJECT_DIR$/AutoTest_project/Website/test_case/model/function.py" />
         <option value="$PROJECT_DIR$/AutoTest_project/Website/test_case/model/myunit.py" />
         <option value="$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/BasePage.py" />
         <option value="$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/LoginPage.py" />
         <option value="$PROJECT_DIR$/autotest/businessView/roomView.py" />
         <option value="$PROJECT_DIR$/AutoTest_project/Website/test_case/test_login.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/AutoTest_project/driver/driver.py" />
         <option value="$PROJECT_DIR$/other/cPickle.dat" />
         <option value="$PROJECT_DIR$/other/free_test.py" />
         <option value="$PROJECT_DIR$/appiumtest/11test.py" />
         <option value="$PROJECT_DIR$/appiumtest/weixin_login.py" />
+=======
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       </list>
     </option>
   </component>
@@ -160,6 +362,8 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+<<<<<<< HEAD
+=======
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -176,6 +380,7 @@
         </selected-state>
       </profile-state>
     </entry>
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -204,7 +409,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zmjj_appium" />
+=======
               <option name="myItemId" value="AutoTest" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,7 +441,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="autotest" />
+=======
+              <option name="myItemId" value="AutoTest_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="autotest" />
+=======
+              <option name="myItemId" value="test_case" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoTest_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_case" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_object" />
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,18 +541,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="appiumtest" />
+=======
+<<<<<<< HEAD
+              <option name="myItemId" value="common" />
+=======
+              <option name="myItemId" value="AutoTest_project" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -280,7 +589,15 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.11test">
+=======
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.desired_caps">
+=======
+  <component name="RunManager" selected="Python.free_test">
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
     <configuration default="false" name="baseView" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,37 +652,85 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="free_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="package_picture" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="test_create_dailymtt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_test" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/free_test.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/package_picture.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_test/test_create_dailymtt.py" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="11test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+<<<<<<< HEAD
+    <configuration default="false" name="desired_caps" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="free_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appiumtest" />
+=======
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autotest/common" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="test" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appiumtest/11test.py" />
+=======
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autotest/common/desired_caps.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/free_test.py" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -439,6 +804,7 @@
       <item index="0" class="java.lang.String" itemvalue="Python.baseView" />
       <item index="1" class="java.lang.String" itemvalue="Python.test" />
       <item index="2" class="java.lang.String" itemvalue="Python.image_fun" />
+<<<<<<< HEAD
       <item index="3" class="java.lang.String" itemvalue="Python.free_test" />
       <item index="4" class="java.lang.String" itemvalue="Python.11test" />
     </list>
@@ -449,6 +815,31 @@
         <item index="2" class="java.lang.String" itemvalue="Python.baseView" />
         <item index="3" class="java.lang.String" itemvalue="Python.image_fun" />
         <item index="4" class="java.lang.String" itemvalue="Python.test" />
+=======
+<<<<<<< HEAD
+      <item index="3" class="java.lang.String" itemvalue="Python.package_picture" />
+      <item index="4" class="java.lang.String" itemvalue="Python.desired_caps" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.desired_caps" />
+        <item index="1" class="java.lang.String" itemvalue="Python.image_fun" />
+        <item index="2" class="java.lang.String" itemvalue="Python.package_picture" />
+        <item index="3" class="java.lang.String" itemvalue="Python.baseView" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+=======
+      <item index="3" class="java.lang.String" itemvalue="Python.test_create_dailymtt" />
+      <item index="4" class="java.lang.String" itemvalue="Python.free_test" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.free_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.baseView" />
+        <item index="2" class="java.lang.String" itemvalue="Python.image_fun" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_create_dailymtt" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       </list>
     </recent_temporary>
   </component>
@@ -507,13 +898,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2527115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25213677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -540,6 +946,53 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/web_test/test_create_goods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_test/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="56" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_test/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sb.tx" />
+    <entry file="file://$PROJECT_DIR$/opencv_test.py" />
+    <entry file="file://$PROJECT_DIR$/web_test/test_create_ghls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+    <entry file="file://$PROJECT_DIR$/web_test/test_cteate_mttbillion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="53" lean-forward="false" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rename.py" />
+    <entry file="file://$PROJECT_DIR$/add_people.py" />
+    <entry file="file://D:/360安全浏览器下载/sc_all/第四章脚本/chapter4_script/find_element/capability.py" />
+    <entry file="file://$PROJECT_DIR$/install.py" />
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
     <entry file="file://$PROJECT_DIR$/autotest/capability.py" />
     <entry file="file://$PROJECT_DIR$/get_gaygay.py" />
     <entry file="file://$PROJECT_DIR$/autotest/get_toast.py" />
@@ -634,21 +1087,34 @@
     <entry file="file://$PROJECT_DIR$/autotest/common/common_fun.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
+<<<<<<< HEAD
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+=======
           <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python34/Lib/site-packages/appium/webdriver/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/autotest/config/kyb_caps.yaml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="132">
+          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+=======
         <state relative-caret-position="330">
           <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python34/Lib/site-packages/aircv/__init__.py" />
     <entry file="file://$PROJECT_DIR$/autotest/common/desired_caps.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="4972">
+          <caret line="240" column="20" lean-forward="false" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+=======
         <state relative-caret-position="22">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
         </state>
@@ -659,6 +1125,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
         </state>
       </provider>
     </entry>
@@ -672,6 +1139,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://C:/Python34/Lib/site-packages/cv2/__init__.py">
+=======
     <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-1774969215/cv2/cv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/web_test/test_create_dailymtt.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -680,7 +1150,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/AutoTest_project/Website/test_case/model/myunit.py">
+=======
+    <entry file="file://$PROJECT_DIR$/autotest/baseView/image_fun.py">
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
@@ -746,6 +1221,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-237927859/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="224">
           <caret line="4852" column="11" lean-forward="false" selection-start-line="4852" selection-start-column="8" selection-end-line="4852" selection-end-column="13" />
         </state>
@@ -755,7 +1231,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="1408">
+          <caret line="69" column="20" lean-forward="false" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+=======
+        <state relative-caret-position="532">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
           <folding />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
         </state>
       </provider>
     </entry>
@@ -769,18 +1254,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/autotest/baseView/image_fun.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="986">
           <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="110">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+=======
+        <state relative-caret-position="209">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
           <folding>
             <element signature="e#243#248#0" expanded="false" />
             <element signature="e#1006#1381#0" expanded="false" />
             <element signature="e#1868#1891#0" expanded="false" />
           </folding>
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autotest/baseView/baseView.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="103">
           <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
@@ -788,12 +1284,43 @@
             <element signature="e#409#435#0" expanded="false" />
             <element signature="e#1029#1060#0" expanded="false" />
             <element signature="e#2821#2850#0" expanded="false" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="352">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/package_picture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="153" column="26" lean-forward="false" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/baseView/baseView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+            <element signature="e#407#433#0" expanded="false" />
+            <element signature="e#1027#1058#0" expanded="false" />
+            <element signature="e#2694#2731#0" expanded="false" />
+=======
+        <state relative-caret-position="-534">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autotest/baseView/test.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="380">
           <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding />
@@ -801,6 +1328,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autotest/test_case/test_login.py">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="733">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#36#0" expanded="false" />
+            <element signature="e#243#248#0" expanded="false" />
+            <element signature="e#1006#1381#0" expanded="false" />
+            <element signature="e#2034#2057#0" expanded="false" />
+=======
+        <state relative-caret-position="133">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/autotest/config/kyb_caps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autotest/common/desired_caps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/AutoTest_project/Website/test_case/page_object/BasePage.py">
+>>>>>>> dbbba465309b6008e46d4e7e7f95266e9491900a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
@@ -833,6 +1396,7 @@
           <folding>
             <element signature="e#15#43#0" expanded="true" />
           </folding>
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
         </state>
       </provider>
     </entry>

@@ -3,9 +3,9 @@ import os
 import tempfile
 import aircv as ac
 import cv2
-import pytesseract
+# import pytesseract
 import time
-from image_fun import image_processing
+from image_fun import image_to_str
 from selenium.common.exceptions import NoSuchElementException
 from common.desired_caps import appium_desired
 
@@ -81,11 +81,12 @@ class BaseView(object):
     def room_id(self):
         # 识别图中数字并提取
         room_id_img = self._room_id_image()
-        img = image_processing(room_id_img)
-        room_num = pytesseract.image_to_string(img, lang="eng", config="-psm 7")
+        # img = image_processing(room_id_img)
+        # room_num = pytesseract.image_to_string(img, lang="eng", config="-psm 7")
         # code = code.encode('utf-8')
         # num = filter(str.isdigit, code)
-        num = room_num.strip().split(' ')
+        # num = room_num.strip().split(' ')
+        num = image_to_str(room_id_img).strip().split(' ')
         return num[0] if len(num[0]) > 2 else num[1]
 
 

@@ -10,7 +10,11 @@
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AutoTest_project/driver" isTestSource="false" />
     </content>
+<<<<<<< HEAD
+    <orderEntry type="jdk" jdkName="Python 3.4.3 (C:\Python34\python.exe)" jdkType="Python SDK" />
+=======
     <orderEntry type="jdk" jdkName="Python 3.5.0 (C:\Users\jgb\AppData\Local\Programs\Python\Python35\python.exe)" jdkType="Python SDK" />
+>>>>>>> f909686022ac0e8242f2ee7817c11569301ad380
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
