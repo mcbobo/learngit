@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/kyb_testProject" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/app_testProject" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/app_testProject/appiuim_service" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/app_testProject/test_run" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5.0 (C:\Users\jgb\AppData\Local\Programs\Python\Python35\python.exe)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

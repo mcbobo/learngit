@@ -3,6 +3,7 @@ import yaml
 import logging
 import logging.config
 import os
+from businessView.loginView import LoginView
 
 CON_LOG = '../config/log.conf'
 logging.config.fileConfig(CON_LOG)
@@ -36,6 +37,8 @@ def appium_desired(udid, port=4723):
     logging.info('start app...')
     driver = webdriver.Remote('http://' + str(data['ip']) + ':' + str(port) + '/wd/hub', desired_caps)
     driver.implicitly_wait(8)
+    l = LoginView(driver)
+    l.login_action('13545', 'zmjj')
     return driver
 
 

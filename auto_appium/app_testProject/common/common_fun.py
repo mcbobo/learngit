@@ -7,7 +7,7 @@ import subprocess
 
 from baseView.baseView import BaseView
 from selenium.webdriver.common.by import By
-from common.desired_caps import appium_desired
+# from common.desired_caps import appium_desired
 from selenium.common.exceptions import (NoSuchElementException, TimeoutException)
 
 

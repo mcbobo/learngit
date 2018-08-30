@@ -1,4 +1,4 @@
-from muli_devices import udid
+from devices import udid
 from multi_appiuim import appium_start
 from check_port import check_port, release_port
 from common.desired_caps import appium_desired
@@ -10,10 +10,12 @@ def start_appium_action(host, port):
     if check_port(host, port):
         appium_start(host, port)
         # sleep(2)
-        return True
+        # return True
+        return False
     else:
         print('appium %s start fail' % port)
-        return False
+        # return False
+        return True
 
 
 def start_devices_action(udid, port):

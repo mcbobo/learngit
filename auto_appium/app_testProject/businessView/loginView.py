@@ -1,7 +1,7 @@
 # coding:utf-8
 import logging
 from common.common_fun import Common, NoSuchElementException, TimeoutException
-from common.desired_caps import appium_desired
+# from common.desired_caps import appium_desired
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
@@ -42,15 +42,16 @@ class LoginView(Common):
         logging.info('username is:%s' % username)
         # self.driver.find_element(*self.username_type).send_keys(username)
         username_element = self.driver.find_element(*self.username_type)
-        self.fast_input(username, username_element)
+        # self.fast_input(username_element, username)
+        username_element.send_keys(username)
         self.driver.find_element(*self.nextBtn).click()
         if self.check_login_fail():
             return False
 
         logging.info('password is:%s' % password)
         password_element = WebDriverWait(self.driver, 5).until(lambda x: x.find_element(*self.password_type))
-        # element.send_keys(password)
-        self.fast_input(password, password_element)
+        password_element.send_keys(password)
+        # self.fast_input(password_element, password)
         self.driver.find_element(*self.nextBtn).click()
         if self.check_login_fail():
             return False
@@ -93,10 +94,13 @@ class LoginView(Common):
 
 
 if __name__ == '__main__':
-    driver = appium_desired()
-    # l = LoginView(driver)
+    from test_run.runnerBase import appium_testcase
+    from devices import devices
+
+    driver = appium_testcase(devices()[0][0])
+    l = LoginView(driver)
     # loc = (By.ID, 'com.tencent.mm:id/d1w')
     # loc = 'com.tencent.mm:id/d1w'
     # driver.find_element(value=loc).click()
-    # l.login_action('13726221317', 'zmjj123456')
+    l.login_action('13726221317', 'zmjj123456')
     # l.check_loginStatus()
