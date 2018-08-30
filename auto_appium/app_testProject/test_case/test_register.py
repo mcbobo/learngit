@@ -1,4 +1,4 @@
-from common.myunit import StartEnd
+from common.BaseSetupDown import StartEnd
 from businessView.registerView import RegisterView
 import logging, random, unittest
 

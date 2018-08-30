@@ -1,7 +1,7 @@
 # coding:utf-8
 import time
 import os
-import yaml
+# import yaml
 import logging
 import subprocess
 
@@ -12,16 +12,13 @@ from selenium.common.exceptions import (NoSuchElementException, TimeoutException
 
 
 class Common(BaseView):
-    def fast_input(self, element, content):
-        # 快速输入
-        with open('../config/app_caps.yaml', 'r', encoding='utf-8') as file:
-            data = yaml.load(file)
-
+    # 快速输入
+    def fast_input(self, element, content, udid=''):
         # x = subprocess.check_output('adb devices', shell=True).decode('utf-8').split('\n')[1][:-7]
-        x = data['deviceName']
+        # x = data['deviceName']
         element.click()
         time.sleep(0.3)
-        subprocess.Popen('adb -s %s shell input text %s' % (x, content), shell=True)
+        subprocess.Popen('adb -s %s shell input text %s' % (udid, content), shell=True)
         time.sleep(0.5)
 
     def get_size(self):
@@ -59,8 +56,4 @@ class Common(BaseView):
 
 
 if __name__ == '__main__':
-    driver = appium_desired()
-    # com = Common(driver)
-    # driver.find_element_by_accessibility_id('搜索').click()
-    # e1 = (By.ACCESSIBILITY_ID, '搜索')
-    # com.getScreenShot('startApp')
+    print('test')

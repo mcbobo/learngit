@@ -1,14 +1,20 @@
 # coding:utf-8
 import os
-import yaml
+# import yaml
 import random
+from common.BaseYaml import getYam
+
+PATH = lambda p: os.path.abspath(
+    os.path.join(os.path.dirname(__file__), p)
+)
 
 
 def devices():
     """返回已连接设备的udid"""
     device_list = []
-    with open('../config/app_caps.yaml', 'r', encoding='utf-8') as file:
-        data = yaml.load(file)
+    data = getYam()
+    # with open('../config/app_caps.yaml', 'r', encoding='utf-8') as file:
+    #     data = yaml.load(file)
 
     cmd = 'adb devices'
     dev = os.popen(cmd).readlines()
@@ -26,7 +32,7 @@ def devices():
         app_path = os.path.join(base_dir, 'app', data['appname'])
         devices_dict['app'] = app_path
         device_list.append([])
-        device_list[i-1].append(devices_dict)
+        device_list[i - 1].append(devices_dict)
     return device_list
 
 
@@ -42,7 +48,6 @@ def udid():
 
 
 if __name__ == '__main__':
-    # print(udid())
-    print(devices())
+    # print(devices())
     for i in devices():
         print(i)

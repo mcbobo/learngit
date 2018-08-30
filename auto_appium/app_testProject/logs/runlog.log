@@ -1240,3 +1240,257 @@
 2018-08-30 14:40:37,384 runner.py[line:56] INFO spend 0:01:05.134185 second
 2018-08-30 14:40:38,205 runner.py[line:56] INFO spend 0:01:05.955505 second
 2018-08-30 14:40:38,304 runner.py[line:56] INFO spend 0:01:06.055057 second
+2018-08-30 18:32:28,679 myunit.py[line:10] INFO =====setUp====
+2018-08-30 18:32:28,679 myunit.py[line:10] INFO =====setUp====
+2018-08-30 18:32:28,679 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 18:32:28,679 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 18:32:28,679 runnerBase.py[line:29] INFO start app...
+2018-08-30 18:32:28,679 runnerBase.py[line:29] INFO start app...
+2018-08-30 18:32:31,361 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 18:32:31,362 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 18:32:31,362 loginView.py[line:39] INFO click loginBtn
+2018-08-30 18:32:31,609 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 18:32:31,610 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 18:32:31,610 loginView.py[line:39] INFO click loginBtn
+2018-08-30 18:32:33,010 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 18:32:33,054 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 18:32:39,164 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:32:39,356 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:32:40,123 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 18:32:40,544 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 18:32:55,386 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:32:55,693 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:32:57,349 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 18:32:57,555 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 18:42:58,622 myunit.py[line:10] INFO =====setUp====
+2018-08-30 18:42:58,622 myunit.py[line:10] INFO =====setUp====
+2018-08-30 18:42:58,622 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 18:42:58,622 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 18:42:58,622 runnerBase.py[line:29] INFO start app...
+2018-08-30 18:42:58,622 runnerBase.py[line:29] INFO start app...
+2018-08-30 18:43:02,783 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 18:43:02,784 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 18:43:02,784 loginView.py[line:39] INFO click loginBtn
+2018-08-30 18:43:02,884 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 18:43:02,885 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 18:43:02,885 loginView.py[line:39] INFO click loginBtn
+2018-08-30 18:43:03,973 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 18:43:04,303 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 18:43:09,906 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:43:10,391 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:43:11,086 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 18:43:11,330 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 18:43:26,188 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:43:26,676 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:43:28,051 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 18:43:31,910 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 18:43:38,583 loginView.py[line:68] INFO pass
+2018-08-30 18:43:38,583 loginView.py[line:60] INFO login finished!
+2018-08-30 18:43:38,583 loginView.py[line:75] INFO ====check_loginStatus======
+2018-08-30 18:43:41,960 loginView.py[line:68] INFO pass
+2018-08-30 18:43:41,960 loginView.py[line:60] INFO login finished!
+2018-08-30 18:43:41,960 loginView.py[line:75] INFO ====check_loginStatus======
+2018-08-30 18:43:48,728 loginView.py[line:79] ERROR login fail!
+2018-08-30 18:43:48,728 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 18:43:48,942 myunit.py[line:15] INFO ====tearDown====
+2018-08-30 18:43:50,305 myunit.py[line:10] INFO =====setUp====
+2018-08-30 18:43:50,305 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 18:43:50,305 runnerBase.py[line:29] INFO start app...
+2018-08-30 18:43:52,044 loginView.py[line:79] ERROR login fail!
+2018-08-30 18:43:52,044 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 18:43:52,245 myunit.py[line:15] INFO ====tearDown====
+2018-08-30 18:43:53,153 test_login.py[line:31] INFO ======test_login_error=====
+2018-08-30 18:43:53,153 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 18:43:53,153 loginView.py[line:39] INFO click loginBtn
+2018-08-30 18:43:53,813 myunit.py[line:10] INFO =====setUp====
+2018-08-30 18:43:53,813 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 18:43:53,813 runnerBase.py[line:29] INFO start app...
+2018-08-30 18:43:54,802 loginView.py[line:42] INFO username is:13115
+2018-08-30 18:43:56,857 test_login.py[line:31] INFO ======test_login_error=====
+2018-08-30 18:43:56,857 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 18:43:56,857 loginView.py[line:39] INFO click loginBtn
+2018-08-30 18:43:58,253 loginView.py[line:42] INFO username is:13115
+2018-08-30 18:44:01,044 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:44:01,829 loginView.py[line:32] ERROR login fail!
+2018-08-30 18:44:01,829 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 18:44:01,996 myunit.py[line:15] INFO ====tearDown====
+2018-08-30 18:44:03,490 runner.py[line:39] INFO start at 2018-08-30 18:42 PM spend 0:01:04.868640 second
+2018-08-30 18:44:04,436 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 18:44:05,137 loginView.py[line:32] ERROR login fail!
+2018-08-30 18:44:05,137 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 18:44:05,350 myunit.py[line:15] INFO ====tearDown====
+2018-08-30 18:44:06,854 runner.py[line:39] INFO start at 2018-08-30 18:42 PM spend 0:01:08.231992 second
+2018-08-30 20:00:50,173 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 20:00:50,174 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 20:00:50,174 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 20:00:50,174 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 20:00:50,174 runnerBase.py[line:29] INFO start app...
+2018-08-30 20:00:50,174 runnerBase.py[line:29] INFO start app...
+2018-08-30 20:00:52,846 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 20:00:52,847 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 20:00:52,847 loginView.py[line:39] INFO click loginBtn
+2018-08-30 20:00:53,052 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 20:00:53,053 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 20:00:53,053 loginView.py[line:39] INFO click loginBtn
+2018-08-30 20:00:54,503 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 20:00:54,515 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 20:01:00,961 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 20:01:00,998 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 20:01:02,160 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 20:01:02,217 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 20:01:17,273 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 20:01:17,281 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 20:01:19,165 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 20:01:19,210 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 20:01:29,499 loginView.py[line:68] INFO pass
+2018-08-30 20:01:29,499 loginView.py[line:60] INFO login finished!
+2018-08-30 20:01:29,499 loginView.py[line:75] INFO ====check_loginStatus======
+2018-08-30 20:01:30,700 loginView.py[line:68] INFO pass
+2018-08-30 20:01:30,700 loginView.py[line:60] INFO login finished!
+2018-08-30 20:01:30,700 loginView.py[line:75] INFO ====check_loginStatus======
+2018-08-30 20:01:39,515 loginView.py[line:79] ERROR login fail!
+2018-08-30 20:01:39,515 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 20:01:39,715 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 20:01:41,211 loginView.py[line:79] ERROR login fail!
+2018-08-30 20:01:41,211 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 20:01:41,288 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 20:01:41,288 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 20:01:41,288 runnerBase.py[line:29] INFO start app...
+2018-08-30 20:01:41,418 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 20:01:42,794 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 20:01:42,794 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 20:01:42,794 runnerBase.py[line:29] INFO start app...
+2018-08-30 20:01:44,310 test_login.py[line:31] INFO ======test_login_error=====
+2018-08-30 20:01:44,310 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 20:01:44,310 loginView.py[line:39] INFO click loginBtn
+2018-08-30 20:01:45,569 test_login.py[line:31] INFO ======test_login_error=====
+2018-08-30 20:01:45,569 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 20:01:45,569 loginView.py[line:39] INFO click loginBtn
+2018-08-30 20:01:45,712 loginView.py[line:42] INFO username is:13115
+2018-08-30 20:01:47,275 loginView.py[line:42] INFO username is:13115
+2018-08-30 20:01:52,207 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 20:01:52,909 loginView.py[line:32] ERROR login fail!
+2018-08-30 20:01:52,910 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 20:01:53,142 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 20:01:53,428 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 20:01:54,093 loginView.py[line:32] ERROR login fail!
+2018-08-30 20:01:54,093 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 20:01:54,329 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 20:01:54,665 runner.py[line:39] INFO start at 2018-08-30 20:00 PM spend 0:01:04.492058 second
+2018-08-30 20:01:55,878 runner.py[line:39] INFO start at 2018-08-30 20:00 PM spend 0:01:05.705424 second
+2018-08-30 22:00:06,769 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 22:00:06,769 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 22:00:06,769 runnerBase.py[line:29] INFO start app...
+2018-08-30 22:00:06,771 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 22:00:06,771 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 22:00:06,771 runnerBase.py[line:29] INFO start app...
+2018-08-30 22:00:09,634 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 22:00:09,635 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 22:00:09,635 loginView.py[line:39] INFO click loginBtn
+2018-08-30 22:00:09,659 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 22:00:09,660 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 22:00:09,660 loginView.py[line:39] INFO click loginBtn
+2018-08-30 22:00:11,102 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 22:00:11,123 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 22:00:16,238 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:00:16,251 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:00:17,159 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 22:00:17,445 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 22:00:32,547 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:00:32,566 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:00:34,424 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 22:00:34,549 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 22:00:44,525 loginView.py[line:68] INFO pass
+2018-08-30 22:00:44,525 loginView.py[line:60] INFO login finished!
+2018-08-30 22:00:44,525 loginView.py[line:75] INFO ====check_loginStatus======
+2018-08-30 22:00:45,088 loginView.py[line:68] INFO pass
+2018-08-30 22:00:45,088 loginView.py[line:60] INFO login finished!
+2018-08-30 22:00:45,088 loginView.py[line:75] INFO ====check_loginStatus======
+2018-08-30 22:00:54,767 loginView.py[line:79] ERROR login fail!
+2018-08-30 22:00:54,767 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 22:00:54,925 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 22:00:55,264 loginView.py[line:79] ERROR login fail!
+2018-08-30 22:00:55,264 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 22:00:55,425 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 22:00:56,288 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 22:00:56,288 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 22:00:56,288 runnerBase.py[line:29] INFO start app...
+2018-08-30 22:00:56,780 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 22:00:56,780 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 22:00:56,780 runnerBase.py[line:29] INFO start app...
+2018-08-30 22:00:59,061 test_login.py[line:31] INFO ======test_login_error=====
+2018-08-30 22:00:59,061 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 22:00:59,061 loginView.py[line:39] INFO click loginBtn
+2018-08-30 22:00:59,738 test_login.py[line:31] INFO ======test_login_error=====
+2018-08-30 22:00:59,739 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 22:00:59,739 loginView.py[line:39] INFO click loginBtn
+2018-08-30 22:01:00,650 loginView.py[line:42] INFO username is:13115
+2018-08-30 22:01:01,287 loginView.py[line:42] INFO username is:13115
+2018-08-30 22:01:05,801 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:01:06,379 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:01:06,585 loginView.py[line:32] ERROR login fail!
+2018-08-30 22:01:06,585 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 22:01:06,729 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 22:01:07,145 loginView.py[line:32] ERROR login fail!
+2018-08-30 22:01:07,145 common_fun.py[line:52] INFO get login fail screenshot
+2018-08-30 22:01:07,288 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 22:01:08,224 runner.py[line:39] INFO =====start at 2018-08-30 22:00 PM spend 0:01:01.455304=====
+2018-08-30 22:01:08,809 runner.py[line:39] INFO =====start at 2018-08-30 22:00 PM spend 0:01:02.038377=====
+2018-08-30 22:03:40,795 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 22:03:40,795 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 22:03:40,795 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 22:03:40,795 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 22:03:40,795 runnerBase.py[line:29] INFO start app...
+2018-08-30 22:03:40,795 runnerBase.py[line:29] INFO start app...
+2018-08-30 22:03:43,641 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 22:03:43,641 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 22:03:43,641 loginView.py[line:39] INFO click loginBtn
+2018-08-30 22:03:43,721 test_login.py[line:13] INFO ======test_login_135=====
+2018-08-30 22:03:43,722 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 22:03:43,722 loginView.py[line:39] INFO click loginBtn
+2018-08-30 22:03:45,152 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 22:03:45,318 loginView.py[line:42] INFO username is:13542431326
+2018-08-30 22:03:50,147 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:03:50,857 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:03:51,136 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 22:03:51,805 loginView.py[line:51] INFO password is:zxw2018
+2018-08-30 22:03:55,617 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:03:56,365 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:03:57,515 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 22:03:59,421 loginView.py[line:63] INFO =====check_account_alert====
+2018-08-30 22:04:07,782 loginView.py[line:68] INFO pass
+2018-08-30 22:04:07,782 loginView.py[line:60] INFO login finished!
+2018-08-30 22:04:07,782 loginView.py[line:75] INFO ====check_loginStatus======
+2018-08-30 22:04:09,512 loginView.py[line:68] INFO pass
+2018-08-30 22:04:09,512 loginView.py[line:60] INFO login finished!
+2018-08-30 22:04:09,512 loginView.py[line:75] INFO ====check_loginStatus======
+2018-08-30 22:04:17,806 loginView.py[line:79] ERROR login fail!
+2018-08-30 22:04:17,806 common_fun.py[line:49] INFO get login fail screenshot
+2018-08-30 22:04:17,973 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 22:04:19,354 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 22:04:19,355 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-08-30 22:04:19,355 runnerBase.py[line:29] INFO start app...
+2018-08-30 22:04:19,968 loginView.py[line:79] ERROR login fail!
+2018-08-30 22:04:19,968 common_fun.py[line:49] INFO get login fail screenshot
+2018-08-30 22:04:20,184 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 22:04:21,741 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-08-30 22:04:21,741 runnerBase.py[line:28] INFO appium port:4725 start run 127.0.0.1:21513
+2018-08-30 22:04:21,741 runnerBase.py[line:29] INFO start app...
+2018-08-30 22:04:22,461 test_login.py[line:31] INFO ======test_login_error=====
+2018-08-30 22:04:22,461 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 22:04:22,461 loginView.py[line:39] INFO click loginBtn
+2018-08-30 22:04:23,984 loginView.py[line:42] INFO username is:13115
+2018-08-30 22:04:24,789 test_login.py[line:31] INFO ======test_login_error=====
+2018-08-30 22:04:24,789 loginView.py[line:38] INFO ============login_action==============
+2018-08-30 22:04:24,790 loginView.py[line:39] INFO click loginBtn
+2018-08-30 22:04:26,295 loginView.py[line:42] INFO username is:13115
+2018-08-30 22:04:29,127 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:04:29,811 loginView.py[line:32] ERROR login fail!
+2018-08-30 22:04:29,811 common_fun.py[line:49] INFO get login fail screenshot
+2018-08-30 22:04:30,033 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 22:04:31,454 loginView.py[line:26] INFO =====check_login_fail====
+2018-08-30 22:04:31,578 runner.py[line:39] INFO =====start at 2018-08-30 22:03 PM spend 0:00:50.782713=====
+2018-08-30 22:04:32,127 loginView.py[line:32] ERROR login fail!
+2018-08-30 22:04:32,127 common_fun.py[line:49] INFO get login fail screenshot
+2018-08-30 22:04:32,366 BaseSetupDown.py[line:11] INFO ====tearDown====
+2018-08-30 22:04:33,875 runner.py[line:39] INFO =====start at 2018-08-30 22:03 PM spend 0:00:53.079936=====

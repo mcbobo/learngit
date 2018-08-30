@@ -1,4 +1,4 @@
-from common.myunit import StartEnd
+from common.BaseSetupDown import StartEnd
 from common.function import get_csv_data
 from businessView.loginView import LoginView
 import unittest
@@ -14,7 +14,7 @@ class TestLogin(StartEnd):
         l = LoginView(self.driver)
         data = get_csv_data(2, csv_file=self.csv_file)
 
-        l.login_action(data[0], data[1])
+        l.login_action(data[0], data[1], self.l_devices['udid'])
         self.assertTrue(l.check_loginStatus())
 
     @unittest.skip('test_login_137')
@@ -23,7 +23,7 @@ class TestLogin(StartEnd):
         l = LoginView(self.driver)
         data = get_csv_data(1, csv_file=self.csv_file)
 
-        l.login_action(data[0], data[1])
+        l.login_action(data[0], data[1], self.l_devices['udid'])
         self.assertTrue(l.check_loginStatus())
 
     # @unittest.skip('test_login_error')
@@ -32,7 +32,7 @@ class TestLogin(StartEnd):
         l = LoginView(self.driver)
         data = get_csv_data(3, csv_file=self.csv_file)
 
-        login_fail = l.login_action(data[0], data[1])
+        login_fail = l.login_action(data[0], data[1], self.l_devices['udid'])
         self.assertFalse(login_fail, msg='login fail!')
 
 

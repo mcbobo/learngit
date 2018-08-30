@@ -1,13 +1,7 @@
-__author__ = 'shikun'
 # -*- coding: utf-8 -*-
 import unittest
 from appium import webdriver
-# from common.variable import GetVariable as common
 import os
-from selenium import webdriver as web
-# from seleniumrequests import Chrome
-# from testBLL import apkBase
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import logging
 import logging.config
 
@@ -46,20 +40,11 @@ class TestInterfaceCase(unittest.TestCase):
 
     @staticmethod
     def setUpClass():
-        # global driver
-        # ga = get_evices()
-        # common.SELENIUM_APPIUM = ga.selenium_appium
-        # if common.SELENIUM_APPIUM == common.APPIUM: # appium入口
-        #     if ga.platformName == common.ANDROID and common.FLAG:
-        #         appium_testcase(ga)
-        # if common.SELENIUM_APPIUM == common.SELENIUM and common.FLAG: # selenium入口
-        #     selenium_testcase(ga)
-        #     # driver.get("http://www.baidu.com")
-        #     # data = driver.title
         pass
 
     def setUp(self):
         self.driver = appium_testcase(self.l_devices)
+        # self.udid = self.l_devices['udid']
 
     def tearDown(self):
         # self.driver.close_app()
@@ -80,12 +65,3 @@ class TestInterfaceCase(unittest.TestCase):
         for name in testnames:
             suite.addTest(testcase_klass(name, l_devices=l_devices[0]))
         return suite
-
-
-if __name__ == '__main__':
-    from devices import devices
-    from test_case.test_login import TestLogin
-
-    suite = unittest.TestSuite()
-    suite.addTest(TestInterfaceCase.parametrize(TestLogin, devices()[0]))
-    unittest.TextTestRunner(verbosity=2).run(suite)

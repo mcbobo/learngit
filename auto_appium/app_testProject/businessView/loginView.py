@@ -33,7 +33,7 @@ class LoginView(Common):
             self.getScreenShot('login fail')
             return True
 
-    def login_action(self, username, password):
+    def login_action(self, username, password, udid=''):
 
         logging.info('============login_action==============')
         logging.info('click loginBtn')
@@ -42,16 +42,16 @@ class LoginView(Common):
         logging.info('username is:%s' % username)
         # self.driver.find_element(*self.username_type).send_keys(username)
         username_element = self.driver.find_element(*self.username_type)
-        # self.fast_input(username_element, username)
-        username_element.send_keys(username)
+        self.fast_input(username_element, username, udid)
+        # username_element.send_keys(username)
         self.driver.find_element(*self.nextBtn).click()
         if self.check_login_fail():
             return False
 
         logging.info('password is:%s' % password)
         password_element = WebDriverWait(self.driver, 5).until(lambda x: x.find_element(*self.password_type))
-        password_element.send_keys(password)
-        # self.fast_input(password_element, password)
+        # password_element.send_keys(password)
+        self.fast_input(password_element, password, udid)
         self.driver.find_element(*self.nextBtn).click()
         if self.check_login_fail():
             return False
@@ -95,7 +95,7 @@ class LoginView(Common):
 
 if __name__ == '__main__':
     from test_run.runnerBase import appium_testcase
-    from devices import devices
+    from common.devices import devices
 
     driver = appium_testcase(devices()[0][0])
     l = LoginView(driver)

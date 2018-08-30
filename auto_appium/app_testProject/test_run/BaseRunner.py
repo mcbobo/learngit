@@ -24,7 +24,7 @@ def appium_testcase(devices):
     if str(devices["platformName"]).lower() == "android":
         # desired_caps['appPackage'] = devices["appPackage"]
         # desired_caps['appActivity'] = devices["appActivity"]
-        desired_caps['udid'] = devices["deviceName"]
+        desired_caps['udid'] = devices["udid"]
         desired_caps['app'] = devices["app"]
         # desired_caps["recreateChromeDriverSessions"] = "True"
         # 解决多次切换到webview报错问题，每次切换到非chrome-Driver时kill掉session 注意这个设置在appium 1.5版本上才做了处理
@@ -51,11 +51,10 @@ def appium_testcase(devices):
     logging.info('start app...')
     driver = webdriver.Remote(remote, desired_caps)
     return driver
-    # return desired_caps
 
 
 class ParametrizedTestCase(unittest.TestCase):
-    """ TestCase classes that want to be parametrized should  
+    """ unittest参数化,TestCase classes that want to be parametrized should  
         inherit from this class.  
     """
 
@@ -94,7 +93,7 @@ class ParametrizedTestCase(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    from appiuim_service.devices import devices
+    from common.devices import devices
 
     # print(appium_testcase(devices()[0]))
     appium_testcase(devices()[1])

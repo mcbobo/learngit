@@ -43,8 +43,11 @@ def appium_desired(udid, port=4723):
 
 
 if __name__ == '__main__':
-    appium_desired('127.0.0.1:21513')
-
+    # appium_desired('127.0.0.1:21513')
+    PATH = lambda p: os.path.abspath(
+        os.path.join(os.path.dirname(__file__), p)
+    )
+    print(PATH('app'))
     # with open('../config/app_caps.yaml', 'r', encoding='utf-8') as file:
     #     data = yaml.load(file)
     #     print(type(data['udid'][1]))
