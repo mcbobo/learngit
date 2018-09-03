@@ -1,7 +1,6 @@
-__author__ = 'shikun'
-
+# coding:utf-8
 import os
-
+import csv
 
 '''
 操作文件
@@ -31,3 +30,16 @@ def remove_file(f):
         os.remove(f)
     else:
         print("%s文件不存在，无法删除" % f)
+
+
+def get_csv_data(line, csv_file='../data/mail_user.csv'):
+    with open(csv_file, 'r', encoding='utf-8-sig') as file:
+        reader = csv.reader(file)
+        for index, row in enumerate(reader, 1):
+            if index == line:
+                return row
+
+
+if __name__ == '__main__':
+    # one = get_csv_data(1)
+    remove_file(r'D:/lo.txt')

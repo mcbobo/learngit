@@ -22,8 +22,11 @@ class AppiumServer:
         """start the appium server
         """
         # for i in range(0, len(self.kwargs)):
-        for i in self.kwargs:
-            cmd = "appium --session-override  -p %s -bp %s -U %s" % (i[0]["port"], i[0]["bport"], i[0]["udid"])
+        for i in range(0, len(self.kwargs)):
+            cmd = "appium --session-override  -p %s -bp %s -U %s" % (
+                self.kwargs[i]["port"], self.kwargs[i]["bport"], self.kwargs[i]["udid"])
+            # for i in self.kwargs:
+            #     cmd = "appium --session-override  -p %s -bp %s -U %s" % (i[0]["port"], i[0]["bport"], i[0]["udid"])
             print(cmd)
             if platform.system() == "Windows":  # windows下启动server
                 t1 = RunServer(cmd)
@@ -31,7 +34,8 @@ class AppiumServer:
                 p.start()
                 while True:
                     print("--------start_win_server-------------")
-                    if self.win_is_runnnig("http://127.0.0.1:" + str(i[0]["port"]) + "/wd/hub" + "/status"):
+                    if self.win_is_runnnig("http://127.0.0.1:" + str(self.kwargs[i]["port"]) + "/wd/hub" + "/status"):
+                        # if self.win_is_runnnig("http://127.0.0.1:" + str(i[0]["port"]) + "/wd/hub" + "/status"):
                         print("-------win_server_ 成功--------------")
                         break
             else:
@@ -102,9 +106,5 @@ if __name__ == "__main__":
     from common.devices import devices
 
     ga = devices()
-    dev = []
-    for i in ga:
-        dev.append(i[0])
-    print(dev)
-    sev = AppiumServer(dev)
+    sev = AppiumServer(ga)
     sev.start_server()

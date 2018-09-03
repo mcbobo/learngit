@@ -32,8 +32,9 @@ def devices():
         base_dir = os.path.dirname(os.path.dirname(__file__))
         app_path = os.path.join(base_dir, 'app', data['appname'])
         devices_dict['app'] = app_path
-        device_list.append([])
-        device_list[i - 1].append(devices_dict)
+        # device_list.append([])
+        # device_list[i - 1].append(devices_dict)
+        device_list.append(devices_dict)
     return device_list
 
 
@@ -49,6 +50,6 @@ def udid():
 
 
 if __name__ == '__main__':
-    # print(devices())
-    for i in devices():
-        print(i)
+    print(devices())
+    # for i in devices():
+    #     print(i)

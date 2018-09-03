@@ -45,6 +45,6 @@ if __name__ == '__main__':
 
     ga = devices()
     # print(ga)
-    # ser = AppiumServer(ga)
-    # ser.start_server()
+    ser = AppiumServer(ga)
+    ser.start_server()
     runnerPool(ga)

@@ -63,5 +63,6 @@ class TestInterfaceCase(unittest.TestCase):
         testnames = testloader.getTestCaseNames(testcase_klass)
         suite = unittest.TestSuite()
         for name in testnames:
-            suite.addTest(testcase_klass(name, l_devices=l_devices[0]))
+            # suite.addTest(testcase_klass(name, l_devices=l_devices[0]))
+            suite.addTest(testcase_klass(name, l_devices=l_devices))
         return suite
