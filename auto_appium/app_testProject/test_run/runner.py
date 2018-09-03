@@ -12,15 +12,15 @@ import logging
 from test_case.test_login import TestLogin
 
 
-def get_devices():
-    return devices()
+# def get_devices():
+#     return devices()
 
 
-ga = get_devices()
+# ga = get_devices()
 
 
-def runnerPool():
-    devices_Pool = ga
+def runnerPool(devices_Pool):
+    # devices_Pool = getDevices
     pool = Pool(len(devices_Pool))
     # for i in range(2):
     #     pool.apply_async(sample_request, args=(t[i],)) # 异步
@@ -41,6 +41,10 @@ def runnerCaseApp(l_devices):
 
 
 if __name__ == '__main__':
-    # ga = get_devices()
+    from common.BaseAppiumServer import AppiumServer
+
+    ga = devices()
     # print(ga)
-    runnerPool()
+    # ser = AppiumServer(ga)
+    # ser.start_server()
+    runnerPool(ga)

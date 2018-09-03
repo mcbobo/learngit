@@ -23,10 +23,7 @@ class AppiumServer:
         """
         # for i in range(0, len(self.kwargs)):
         for i in self.kwargs:
-            print(i[0])
-            cmd = "appium --session-override  -p %s -bp %s -U %s" % (
-                # self.kwargs[i]["port"], self.kwargs[i]["bport"], self.kwargs[i]["devices"])
-                i[0]["port"], i[0]["bport"], i[0]["udid"])
+            cmd = "appium --session-override  -p %s -bp %s -U %s" % (i[0]["port"], i[0]["bport"], i[0]["udid"])
             print(cmd)
             if platform.system() == "Windows":  # windows下启动server
                 t1 = RunServer(cmd)
@@ -105,5 +102,9 @@ if __name__ == "__main__":
     from common.devices import devices
 
     ga = devices()
-    sev = AppiumServer(ga)
+    dev = []
+    for i in ga:
+        dev.append(i[0])
+    print(dev)
+    sev = AppiumServer(dev)
     sev.start_server()

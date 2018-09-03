@@ -11,34 +11,15 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43422732">
+    <splitter split-orientation="horizontal" split-proportion="0.49679488">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BaseRunner.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app_testProject/test_run/BaseRunner.py">
+          <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app_testProject/test_run/runner.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="91" column="20" lean-forward="false" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="false" />
-                    <element signature="e#270#305#0" expanded="false" />
-                    <element signature="e#491#2030#0" expanded="false" />
-                    <element signature="e#576#935#0" expanded="false" />
-                    <element signature="e#576#628#0" expanded="false" />
-                    <element signature="e#792#847#0" expanded="false" />
-                    <element signature="e#954#1215#0" expanded="false" />
-                    <element signature="e#2084#3168#0" expanded="false" />
-                    <element signature="e#2084#2197#1" expanded="false" />
-                    <element signature="e#2265#2368#0" expanded="false" />
-                    <element signature="e#2418#2598#0" expanded="false" />
-                    <element signature="e#2431#2471#0" expanded="false" />
-                    <element signature="e#2629#2668#0" expanded="false" />
-                    <element signature="e#2721#2743#0" expanded="false" />
-                    <element signature="e#2777#2781#0" expanded="false" />
-                    <element signature="e#2858#3168#0" expanded="false" />
-                    <element signature="e#2858#2888#0" expanded="false" />
-                    <element signature="e#3202#3314#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="440">
+                  <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -56,50 +37,30 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app_testProject/test_run/runner.py">
+        <leaf>
+          <file leaf-file-name="runnerBase.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app_testProject/test_run/runnerBase.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BaseAppiumServer.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app_testProject/common/BaseAppiumServer.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1804">
-                  <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+                <state relative-caret-position="880">
+                  <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
                   <folding>
-                    <element signature="e#354#374#0" expanded="false" />
-                    <element signature="e#2967#3079#0" expanded="false" />
-                    <element signature="e#3016#3036#0" expanded="false" />
-                    <element signature="e#3121#3256#0" expanded="false" />
-                    <element signature="e#3154#3208#0" expanded="false" />
-                    <element signature="e#3237#3256#0" expanded="false" />
+                    <element signature="e#24#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="check_port.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app_testProject/appiuim_service/check_port.py">
+          <file leaf-file-name="BaseAppiumServer.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app_testProject/common/BaseAppiumServer.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="devices.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app_testProject/common/devices.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-                  <folding />
+                <state relative-caret-position="154">
+                  <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#354#374#0" expanded="false" />
+                    <element signature="e#2832#2944#0" expanded="false" />
+                    <element signature="e#2881#2901#0" expanded="false" />
+                    <element signature="e#3019#3073#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -184,13 +145,13 @@
         <option value="$PROJECT_DIR$/app_testProject/common/desired_caps.py" />
         <option value="$PROJECT_DIR$/app_testProject/test_run/runnerBase.py" />
         <option value="$PROJECT_DIR$/app_testProject/test_case/test_login.py" />
-        <option value="$PROJECT_DIR$/app_testProject/test_run/BaseRunner.py" />
         <option value="$PROJECT_DIR$/app_testProject/common/common_fun.py" />
         <option value="$PROJECT_DIR$/app_testProject/businessView/loginView.py" />
-        <option value="$PROJECT_DIR$/app_testProject/test_run/runner.py" />
         <option value="$PROJECT_DIR$/app_testProject/common/devices.py" />
-        <option value="$PROJECT_DIR$/app_testProject/common/BaseAppiumServer.py" />
         <option value="$PROJECT_DIR$/app_testProject/appiuim_service/check_port.py" />
+        <option value="$PROJECT_DIR$/app_testProject/common/BaseAppiumServer.py" />
+        <option value="$PROJECT_DIR$/app_testProject/test_run/BaseRunner.py" />
+        <option value="$PROJECT_DIR$/app_testProject/test_run/runner.py" />
       </list>
     </option>
   </component>
@@ -215,8 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -411,7 +372,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appium_auto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../appium_skr" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -425,7 +386,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.check_port">
+  <component name="RunManager" selected="Python.runner">
     <configuration default="false" name="runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,24 +423,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="desired_caps" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_testProject/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="auto_appium" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_testProject/common/desired_caps.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="BaseAppiumServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -511,6 +454,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="auto_appium" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_testProject/appiuim_service/check_port.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BaseRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_testProject/test_run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="auto_appium" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_testProject/test_run/BaseRunner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -583,17 +544,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.runner" />
       <item index="1" class="java.lang.String" itemvalue="Python.devices (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.desired_caps" />
-      <item index="3" class="java.lang.String" itemvalue="Python.BaseAppiumServer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.check_port" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BaseAppiumServer" />
+      <item index="3" class="java.lang.String" itemvalue="Python.check_port" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BaseRunner" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.check_port" />
-        <item index="1" class="java.lang.String" itemvalue="Python.BaseAppiumServer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.runner" />
-        <item index="3" class="java.lang.String" itemvalue="Python.devices (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.desired_caps" />
+        <item index="0" class="java.lang.String" itemvalue="Python.runner" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BaseRunner" />
+        <item index="2" class="java.lang.String" itemvalue="Python.BaseAppiumServer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.check_port" />
+        <item index="4" class="java.lang.String" itemvalue="Python.devices (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -643,19 +604,19 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1652452" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1684435" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22968581" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18634886" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -691,7 +652,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -818,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_testProject/test_run/runnerBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_testProject/common/desired_caps1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-342">
@@ -832,23 +786,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_testProject/test_case/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <marker date="1535678385811" expanded="false" signature="0:12" ph="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_testProject/businessView/loginView.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
           <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-          <folding>
-            <marker date="1535678385788" expanded="true" signature="3899:3971" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,52 +797,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#26#0" expanded="false" />
-            <marker date="1535678385797" expanded="true" signature="1950:1952" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/platform.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1120" column="4" lean-forward="false" selection-start-line="1120" selection-start-column="4" selection-end-line="1120" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_testProject/appiuim_service/check_port.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_testProject/common/devices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_testProject/common/BaseSetupDown.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_testProject/test_run/runner.py">
+    <entry file="file://$PROJECT_DIR$/app_testProject/test_case/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="66">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_testProject/test_run/BaseRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="91" column="20" lean-forward="false" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="85" column="21" lean-forward="true" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
           <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#270#305#0" expanded="false" />
             <element signature="e#491#2030#0" expanded="false" />
-            <element signature="e#576#935#0" expanded="false" />
-            <element signature="e#576#628#0" expanded="false" />
-            <element signature="e#792#847#0" expanded="false" />
-            <element signature="e#954#1215#0" expanded="false" />
-            <element signature="e#2084#3168#0" expanded="false" />
-            <element signature="e#2084#2197#1" expanded="false" />
-            <element signature="e#2265#2368#0" expanded="false" />
-            <element signature="e#2418#2598#0" expanded="false" />
-            <element signature="e#2431#2471#0" expanded="false" />
-            <element signature="e#2629#2668#0" expanded="false" />
-            <element signature="e#2721#2743#0" expanded="false" />
-            <element signature="e#2777#2781#0" expanded="false" />
-            <element signature="e#2858#3168#0" expanded="false" />
-            <element signature="e#2858#2888#0" expanded="false" />
-            <element signature="e#3202#3314#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_testProject/test_run/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -913,42 +866,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python34/Lib/platform.py">
+    <entry file="file://$PROJECT_DIR$/app_testProject/test_run/runnerBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="1120" column="4" lean-forward="false" selection-start-line="1120" selection-start-column="4" selection-end-line="1120" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_testProject/common/devices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="880">
+          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_testProject/common/BaseAppiumServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#354#374#0" expanded="false" />
-            <element signature="e#2967#3079#0" expanded="false" />
-            <element signature="e#3016#3036#0" expanded="false" />
-            <element signature="e#3121#3256#0" expanded="false" />
-            <element signature="e#3154#3208#0" expanded="false" />
-            <element signature="e#3237#3256#0" expanded="false" />
+            <element signature="e#2832#2944#0" expanded="false" />
+            <element signature="e#2881#2901#0" expanded="false" />
+            <element signature="e#3019#3073#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_testProject/appiuim_service/check_port.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
