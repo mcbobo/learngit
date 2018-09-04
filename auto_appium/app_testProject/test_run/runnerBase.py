@@ -25,6 +25,7 @@ def appium_testcase(l_devices):
     desired_caps['app'] = l_devices["app"]
     desired_caps["unicodeKeyboard"] = "True"
     desired_caps["resetKeyboard"] = "True"
+    # desired_caps["automationName"] = "uiautomator2"
     logging.info('appium port:%s start run %s' % (l_devices["port"], l_devices["udid"]))
     logging.info('start app...')
     remote = "http://127.0.0.1:" + str(l_devices["port"]) + "/wd/hub"

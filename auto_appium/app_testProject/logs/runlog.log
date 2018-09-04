@@ -1717,3 +1717,47 @@
 2018-09-03 18:00:13,243 loginView.py[line:38] INFO ============login_action==============
 2018-09-03 18:00:13,243 loginView.py[line:39] INFO click loginBtn
 2018-09-03 18:00:14,940 loginView.py[line:42] INFO username is:13542431326
+2018-09-04 09:36:47,735 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-09-04 09:36:47,735 runnerBase.py[line:28] INFO appium port:4723 start run 127.0.0.1:21503
+2018-09-04 09:36:47,735 runnerBase.py[line:29] INFO start app...
+2018-09-04 09:36:52,700 test_login.py[line:13] INFO ======test_login_135=====
+2018-09-04 09:36:52,701 loginView.py[line:38] INFO ============login_action==============
+2018-09-04 09:36:52,701 loginView.py[line:39] INFO click loginBtn
+2018-09-04 09:36:54,556 loginView.py[line:42] INFO username is:13542431326
+2018-09-04 09:36:59,831 loginView.py[line:26] INFO =====check_login_fail====
+2018-09-04 09:37:01,496 loginView.py[line:51] INFO password is:zxw2018
+2018-09-04 10:47:35,967 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-09-04 10:47:35,967 runnerBase.py[line:29] INFO appium port:4723 start run 127.0.0.1:21503
+2018-09-04 10:47:35,967 runnerBase.py[line:30] INFO start app...
+2018-09-04 10:47:42,019 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-09-04 10:47:42,019 runnerBase.py[line:29] INFO appium port:4723 start run 127.0.0.1:21503
+2018-09-04 10:47:42,019 runnerBase.py[line:30] INFO start app...
+2018-09-04 10:47:45,050 runner.py[line:39] INFO =====start at 2018-09-04 10:47 AM spend 0:00:09.083819=====
+2018-09-04 10:48:57,380 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-09-04 10:48:57,380 runnerBase.py[line:29] INFO appium port:4723 start run 127.0.0.1:21503
+2018-09-04 10:48:57,380 runnerBase.py[line:30] INFO start app...
+2018-09-04 10:49:01,435 test_login.py[line:13] INFO ======test_login_135=====
+2018-09-04 10:49:01,436 loginView.py[line:38] INFO ============login_action==============
+2018-09-04 10:49:01,436 loginView.py[line:39] INFO click loginBtn
+2018-09-04 10:49:02,759 loginView.py[line:42] INFO username is:13542431326
+2018-09-04 10:49:08,097 loginView.py[line:26] INFO =====check_login_fail====
+2018-09-04 10:49:09,305 loginView.py[line:51] INFO password is:zxw2018
+2018-09-04 10:49:13,856 loginView.py[line:26] INFO =====check_login_fail====
+2018-09-04 10:49:16,541 loginView.py[line:63] INFO =====check_account_alert====
+2018-09-04 11:06:10,436 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-09-04 11:06:10,437 runnerBase.py[line:29] INFO appium port:4723 start run 127.0.0.1:21543
+2018-09-04 11:06:10,437 runnerBase.py[line:30] INFO start app...
+2018-09-04 11:06:13,861 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-09-04 11:06:13,861 runnerBase.py[line:29] INFO appium port:4723 start run 127.0.0.1:21543
+2018-09-04 11:06:13,861 runnerBase.py[line:30] INFO start app...
+2018-09-04 11:06:17,247 runner.py[line:39] INFO =====start at 2018-09-04 11:06 AM spend 0:00:06.810861=====
+2018-09-04 11:09:56,767 BaseSetupDown.py[line:7] INFO =====setUp====
+2018-09-04 11:09:56,767 runnerBase.py[line:29] INFO appium port:4723 start run 127.0.0.1:21543
+2018-09-04 11:09:56,767 runnerBase.py[line:30] INFO start app...
+2018-09-04 11:10:01,686 test_login.py[line:13] INFO ======test_login_135=====
+2018-09-04 11:10:01,687 loginView.py[line:38] INFO ============login_action==============
+2018-09-04 11:10:01,687 loginView.py[line:39] INFO click loginBtn
+2018-09-04 11:10:03,281 loginView.py[line:42] INFO username is:13542431326
+2018-09-04 11:10:08,377 loginView.py[line:26] INFO =====check_login_fail====
+2018-09-04 11:10:09,446 loginView.py[line:51] INFO password is:zxw2018
+2018-09-04 11:10:13,878 loginView.py[line:26] INFO =====check_login_fail====

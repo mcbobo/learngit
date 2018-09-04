@@ -27,7 +27,7 @@ def devices():
         devices_dict['bport'] = devices_dict['port'] + 1
         devices_dict['deviceName'] = devices_dict['udid']
         devices_dict["systemPort"] = str(random.randint(4700, 4900))
-        # devices_dict["automationName"] = "uiautomator2"
+        devices_dict["automationName"] = "uiautomator2"
 
         base_dir = os.path.dirname(os.path.dirname(__file__))
         app_path = os.path.join(base_dir, 'app', data['appname'])
