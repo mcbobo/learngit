@@ -1,29 +1,25 @@
 # coding=utf-8
-from appium import webdriver
-import yaml
-from time import sleep
-import logging
+from capability import driver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
 
-file = open('desired_caps.yaml', 'r')
-data = yaml.load(file)
+flag = True
+while flag:
+    driver.find_element_by_id('com.tal.kaoyan:id/login_email_edittext').clear()
+    driver.find_element_by_id('com.tal.kaoyan:id/login_email_edittext').send_keys('55555')
 
-logging.basicConfig(filename=r'D:\runlog.log', level=logging.DEBUG,
-                    format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s')
+    driver.find_element_by_id('com.tal.kaoyan:id/login_password_edittext').send_keys('zxw2018')
+    driver.find_element_by_id('com.tal.kaoyan:id/login_login_btn').click()
 
-desired_caps = {}
-desired_caps['platformName'] = data['platformName']
-desired_caps['platformVersion'] = data['platformVersion']
-desired_caps['deviceName'] = data['deviceName']
+    error_message = "用户名或密码错误，你还可以尝试3次"
+    limit_message = "验证失败次数过多，请15分钟后再试"
 
-desired_caps['app'] = data['app']
-desired_caps['noReset'] = data['noReset']
-
-desired_caps['appPackage'] = data['appPackage']
-desired_caps['appActivity'] = data['appActivity']
-
-logging.info('start app..')
-driver = webdriver.Remote('http://' + str(data['ip']) + ':' + str(data['port']) + '/wd/hub', desired_caps)
-
-logging.info('Done!')
-sleep(3)
-driver.close_app()
+    # message = '//*[@text=\'{}\']'.format(error_message)
+    message = '//*[@text=\'{}\']'.format(limit_message)
+    try:
+        toast_element = WebDriverWait(driver, 5).until(lambda x: x.find_element_by_xpath(message))
+    except TimeoutException:
+        pass
+    else:
+        print(toast_element.text)
+        flag = False

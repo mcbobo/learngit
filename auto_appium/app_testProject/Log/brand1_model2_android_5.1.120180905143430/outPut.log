@@ -1,0 +1,6 @@
+2018-09-05 14:34:30,417  - INFO - ============login_action==============
+2018-09-05 14:34:30,417  - INFO - click loginBtn
+2018-09-05 14:34:31,476  - INFO - username is:13115
+2018-09-05 14:34:36,880  - INFO - =====check_login_fail====
+2018-09-05 14:34:37,537  - ERROR - login fail!
+2018-09-05 14:34:37,538  - INFO - get login fail screenshot

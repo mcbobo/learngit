@@ -12,7 +12,7 @@ PATH = lambda p: os.path.abspath(
 def devices():
     """返回已连接设备的udid"""
     device_list = []
-    data = getYam()
+    data = getYam(PATH('../config/app_caps.yaml'))[1]
     # with open('../config/app_caps.yaml', 'r', encoding='utf-8') as file:
     #     data = yaml.load(file)
 

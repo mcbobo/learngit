@@ -44,5 +44,5 @@ def writeInfo(data="", path="data.pickle"):
 
 
 if __name__ == "__main__":
-    # write("用例失败重连过一次，失败原因：", "../logs/connect64dd15b8-ca91-11e7-87ae-38c98647adce.pickle")
+    # write("用例失败重连过一次，失败原因：", "../Log/connect64dd15b8-ca91-11e7-87ae-38c98647adce.pickle")
     pass
