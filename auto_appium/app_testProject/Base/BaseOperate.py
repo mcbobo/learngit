@@ -1,14 +1,9 @@
+# -*- coding: utf-8 -*-
 import re
-
-import os
 import threading
-
 import appium.common.exceptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
-
-__author__ = 'shikun'
-# -*- coding: utf-8 -*-
 from selenium.webdriver.support.ui import WebDriverWait
 import selenium.common.exceptions
 from Base.BaseElementEnmu import Element as be
@@ -101,7 +96,8 @@ class OperateElement:
                 be.SET_VALUE: lambda: self.set_value(operate),
                 be.ADB_TAP: lambda: self.adb_tap(operate, device),
                 be.GET_CONTENT_DESC: lambda: self.get_content_desc(operate),
-                be.PRESS_KEY_CODE: lambda: self.press_keycode(operate)
+                be.PRESS_KEY_CODE: lambda: self.press_keycode(operate),
+                be.TAP: lambda: self.tap(operate)
 
             }
             return elements[operate.get("operate_type")]()
@@ -126,6 +122,9 @@ class OperateElement:
         except KeyError:
             # 如果key不存在，一般都是在自定义的page页面去处理了，这里直接返回为真
             return {"result": True}
+
+    def tap(self, operate):
+        pass
 
     # 获取到元素到坐标点击，主要解决浮动层遮档无法触发driver.click的问题
     def adb_tap(self, mOperate, device):
@@ -302,20 +301,22 @@ class OperateElement:
             pass
         except selenium.common.exceptions.NoSuchElementException:
             # print("==查找元素不存在==")
-           pass
+            pass
         except selenium.common.exceptions.WebDriverException:
             # print("WebDriver出现问题了")
-           pass
+            pass
 
     # 封装常用的标签
     def elements_by(self, mOperate):
-
         elements = {
             be.find_element_by_id: lambda: self.driver.find_element_by_id(mOperate["element_info"]),
             be.find_element_by_xpath: lambda: self.driver.find_element_by_xpath(mOperate["element_info"]),
             be.find_element_by_css_selector: lambda: self.driver.find_element_by_css_selector(mOperate['element_info']),
             be.find_element_by_class_name: lambda: self.driver.find_element_by_class_name(mOperate['element_info']),
-            be.find_elements_by_id: lambda: self.driver.find_elements_by_id(mOperate['element_info'])
-
+            be.find_elements_by_id: lambda: self.driver.find_elements_by_id(mOperate['element_info']),
+            be.find_elements_by_image: lambda: self.find_element_by_image(mOperate['element_info'])
         }
         return elements[mOperate["find_type"]]()
+
+    def find_element_by_image(self, path):
+        pass

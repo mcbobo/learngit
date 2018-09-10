@@ -1,31 +1,31 @@
 (dp0
 Vpass
 p1
-L1L
-sVversionName
-p2
-V1.4.0
-p3
-sVversionCode
-p4
-V40
-p5
-sVsum
-p6
-L1L
-sVtestSumDate
-p7
-V12\u79d2
-p8
-sVpackingTime
-p9
-V2017/12/4 13:00
-p10
-sVfail
-p11
 L0L
+sVtestSumDate
+p2
+V1\u79d2
+p3
 sVtestDate
+p4
+V2018-09-07 16:33:31
+p5
+sVfail
+p6
+L0L
+sVversionCode
+p7
+V40
+p8
+sVversionName
+p9
+V1.4.0
+p10
+sVpackingTime
+p11
+V2017/12/4 13:00
 p12
-V2018-09-05 16:41:58
+sVsum
 p13
+L0L
 s.
