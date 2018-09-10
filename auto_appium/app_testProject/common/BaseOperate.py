@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
 import selenium.common.exceptions
-from Base.BaseElementEnmu import Element as be
+from common.BaseElementEnmu import Element as be
 
 from common.BaseAppiumImage import AppiumImage
 
@@ -321,7 +321,7 @@ class OperateElement:
             be.find_element_by_css_selector: lambda: self.driver.find_element_by_css_selector(mOperate['element_info']),
             be.find_element_by_class_name: lambda: self.driver.find_element_by_class_name(mOperate['element_info']),
             be.find_elements_by_id: lambda: self.driver.find_elements_by_id(mOperate['element_info']),
-            be.find_elements_by_image: lambda: self.find_element_by_image(mOperate['element_info'])
+            be.find_element_by_image: lambda: self.find_element_by_image(mOperate['element_info'])
         }
         return elements[mOperate["find_type"]]()
 

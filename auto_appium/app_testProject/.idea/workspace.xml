@@ -14,61 +14,61 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="BaseOperate.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="BaseOperate.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/common/BaseOperate.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-20">
-                  <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+                <state relative-caret-position="118">
+                  <caret line="250" column="30" lean-forward="false" selection-start-line="250" selection-start-column="30" selection-end-line="250" selection-end-column="30" />
                   <folding>
-                    <element signature="e#395#427#1" expanded="false" />
-                    <element signature="e#495#515#0" expanded="false" />
-                    <element signature="e#1563#1663#0" expanded="false" />
-                    <element signature="e#2304#2383#0" expanded="false" />
-                    <element signature="e#2462#2541#0" expanded="false" />
-                    <element signature="e#2616#2711#0" expanded="false" />
-                    <element signature="e#2822#2974#1" expanded="false" />
-                    <element signature="e#4836#5123#0" expanded="false" />
-                    <element signature="e#5210#5512#0" expanded="false" />
-                    <element signature="e#5550#5625#0" expanded="false" />
-                    <element signature="e#6141#6639#0" expanded="false" />
-                    <element signature="e#6271#6433#0" expanded="false" />
-                    <element signature="e#7237#7436#0" expanded="false" />
-                    <element signature="e#7442#7471#1" expanded="false" />
-                    <element signature="e#7511#7567#0" expanded="false" />
-                    <element signature="e#7573#7598#1" expanded="false" />
-                    <element signature="e#7639#8684#0" expanded="false" />
-                    <element signature="e#7656#8483#0" expanded="false" />
-                    <element signature="e#7704#8446#0" expanded="false" />
-                    <element signature="e#7858#8446#0" expanded="false" />
-                    <element signature="e#7921#8446#0" expanded="false" />
-                    <element signature="e#8560#8678#0" expanded="false" />
-                    <element signature="e#8733#8970#0" expanded="false" />
-                    <element signature="e#9097#9439#0" expanded="false" />
-                    <element signature="e#9474#9819#0" expanded="false" />
-                    <element signature="e#9716#9736#0" expanded="false" />
-                    <element signature="e#9857#10185#0" expanded="false" />
-                    <element signature="e#10230#10408#0" expanded="false" />
-                    <element signature="e#10230#10314#1" expanded="false" />
-                    <element signature="e#10453#11346#0" expanded="false" />
-                    <element signature="e#10453#10544#1" expanded="false" />
-                    <element signature="e#10622#11008#0" expanded="false" />
-                    <element signature="e#11393#12664#0" expanded="false" />
-                    <element signature="e#11410#12312#0" expanded="false" />
-                    <element signature="e#11472#11532#0" expanded="false" />
-                    <element signature="e#11883#12312#0" expanded="false" />
-                    <element signature="e#12385#12423#0" expanded="false" />
-                    <element signature="e#12502#12541#0" expanded="false" />
-                    <element signature="e#12616#12658#0" expanded="false" />
+                    <element signature="e#24#35#0" expanded="true" />
+                    <element signature="e#497#517#0" expanded="false" />
+                    <element signature="e#1565#1665#0" expanded="false" />
+                    <element signature="e#2306#2385#0" expanded="false" />
+                    <element signature="e#2464#2543#0" expanded="false" />
+                    <element signature="e#2618#2713#0" expanded="false" />
+                    <element signature="e#2824#2976#1" expanded="false" />
+                    <element signature="e#4838#5125#0" expanded="false" />
+                    <element signature="e#5212#5514#0" expanded="false" />
+                    <element signature="e#5552#5627#0" expanded="false" />
+                    <element signature="e#6143#6641#0" expanded="false" />
+                    <element signature="e#6273#6435#0" expanded="false" />
+                    <element signature="e#7239#7438#0" expanded="false" />
+                    <element signature="e#7444#7473#1" expanded="false" />
+                    <element signature="e#7513#7569#0" expanded="false" />
+                    <element signature="e#7575#7600#1" expanded="false" />
+                    <element signature="e#7641#8686#0" expanded="false" />
+                    <element signature="e#7658#8485#0" expanded="false" />
+                    <element signature="e#7706#8448#0" expanded="false" />
+                    <element signature="e#7860#8448#0" expanded="false" />
+                    <element signature="e#7923#8448#0" expanded="false" />
+                    <element signature="e#8562#8680#0" expanded="false" />
+                    <element signature="e#8735#8972#0" expanded="false" />
+                    <element signature="e#9099#9441#0" expanded="false" />
+                    <element signature="e#9476#9821#0" expanded="false" />
+                    <element signature="e#9718#9738#0" expanded="false" />
+                    <element signature="e#9859#10187#0" expanded="false" />
+                    <element signature="e#10232#10410#0" expanded="false" />
+                    <element signature="e#10232#10316#1" expanded="false" />
+                    <element signature="e#10455#11348#0" expanded="false" />
+                    <element signature="e#10455#10546#1" expanded="false" />
+                    <element signature="e#10624#11010#0" expanded="false" />
+                    <element signature="e#11395#12666#0" expanded="false" />
+                    <element signature="e#11412#12314#0" expanded="false" />
+                    <element signature="e#11474#11534#0" expanded="false" />
+                    <element signature="e#11885#12314#0" expanded="false" />
+                    <element signature="e#12387#12425#0" expanded="false" />
+                    <element signature="e#12504#12543#0" expanded="false" />
+                    <element signature="e#12618#12660#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BaseAppiumImage.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="BaseAppiumImage.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/common/BaseAppiumImage.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+                <state relative-caret-position="-115">
+                  <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
                   <folding>
                     <element signature="e#15#24#0" expanded="true" />
                   </folding>
@@ -79,7 +79,7 @@
           <file leaf-file-name="desired_caps1.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/common/desired_caps1.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="569">
+                <state relative-caret-position="684">
                   <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#28#0" expanded="true" />
@@ -91,22 +91,22 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="BaseElementEnmu.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/common/BaseElementEnmu.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+                <state relative-caret-position="152">
+                  <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="runner_new.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="runner_new.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test_run/runner_new.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="385">
-                  <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+                <state relative-caret-position="398">
+                  <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -122,11 +122,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="firstOpen.yaml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="firstOpen.yaml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/yamls/home/firstOpen.yaml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="209">
-                  <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                  <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -150,6 +150,13 @@
       <find>im</find>
       <find>touch</find>
       <find>tap</find>
+      <find>b</find>
+      <find>ba</find>
+      <find>A</find>
+      <find>B</find>
+      <find>Ba</find>
+      <find>Bas</find>
+      <find>Base</find>
     </findStrings>
     <replaceStrings>
       <replace>self.driver.find_element</replace>
@@ -172,12 +179,12 @@
         <option value="$PROJECT_DIR$/test_case/test_login.py" />
         <option value="$PROJECT_DIR$/common/common_fun.py" />
         <option value="$PROJECT_DIR$/test_run/run.py" />
-        <option value="$PROJECT_DIR$/common/BaseElementEnmu.py" />
         <option value="$PROJECT_DIR$/config/app_caps.yaml" />
         <option value="$PROJECT_DIR$/common/desired_caps1.py" />
         <option value="$PROJECT_DIR$/common/BaseAppiumImage.py" />
-        <option value="$PROJECT_DIR$/common/BaseOperate.py" />
         <option value="$PROJECT_DIR$/yamls/home/firstOpen.yaml" />
+        <option value="$PROJECT_DIR$/common/BaseElementEnmu.py" />
+        <option value="$PROJECT_DIR$/common/BaseOperate.py" />
       </list>
     </option>
   </component>
@@ -202,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,6 +283,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -505,6 +512,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15052083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25475687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -518,7 +526,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -613,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5434">
           <caret line="286" column="30" lean-forward="false" selection-start-line="286" selection-start-column="30" selection-end-line="286" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Base/BaseElementEnmu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Base/BaseOperate_me.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4917">
@@ -697,23 +694,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4917">
           <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/BaseOperate_me.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5183">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/common/BaseOperate_me.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/appium/webdriver/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,13 +709,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="11" column="33" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/desired_caps1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
+        <state relative-caret-position="684">
           <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -743,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/BaseElementEnmu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app_caps.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -759,77 +738,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_run/runner_new.py">
+    <entry file="file://$PROJECT_DIR$/yamls/home/firstOpen.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        <state relative-caret-position="209">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yamls/home/firstOpen.yaml">
+    <entry file="file://$PROJECT_DIR$/common/BaseAppiumImage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="-115">
+          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base/BaseElementEnmu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/BaseOperate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="231" column="0" lean-forward="true" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+        <state relative-caret-position="118">
+          <caret line="250" column="30" lean-forward="false" selection-start-line="250" selection-start-column="30" selection-end-line="250" selection-end-column="30" />
           <folding>
-            <element signature="e#395#427#1" expanded="false" />
-            <element signature="e#495#515#0" expanded="false" />
-            <element signature="e#1563#1663#0" expanded="false" />
-            <element signature="e#2304#2383#0" expanded="false" />
-            <element signature="e#2462#2541#0" expanded="false" />
-            <element signature="e#2616#2711#0" expanded="false" />
-            <element signature="e#2822#2974#1" expanded="false" />
-            <element signature="e#4836#5123#0" expanded="false" />
-            <element signature="e#5210#5512#0" expanded="false" />
-            <element signature="e#5550#5625#0" expanded="false" />
-            <element signature="e#6141#6639#0" expanded="false" />
-            <element signature="e#6271#6433#0" expanded="false" />
-            <element signature="e#7237#7436#0" expanded="false" />
-            <element signature="e#7442#7471#1" expanded="false" />
-            <element signature="e#7511#7567#0" expanded="false" />
-            <element signature="e#7573#7598#1" expanded="false" />
-            <element signature="e#7639#8684#0" expanded="false" />
-            <element signature="e#7656#8483#0" expanded="false" />
-            <element signature="e#7704#8446#0" expanded="false" />
-            <element signature="e#7858#8446#0" expanded="false" />
-            <element signature="e#7921#8446#0" expanded="false" />
-            <element signature="e#8560#8678#0" expanded="false" />
-            <element signature="e#8733#8970#0" expanded="false" />
-            <element signature="e#9097#9439#0" expanded="false" />
-            <element signature="e#9474#9819#0" expanded="false" />
-            <element signature="e#9716#9736#0" expanded="false" />
-            <element signature="e#9857#10185#0" expanded="false" />
-            <element signature="e#10230#10408#0" expanded="false" />
-            <element signature="e#10230#10314#1" expanded="false" />
-            <element signature="e#10453#11346#0" expanded="false" />
-            <element signature="e#10453#10544#1" expanded="false" />
-            <element signature="e#10622#11008#0" expanded="false" />
-            <element signature="e#11393#12664#0" expanded="false" />
-            <element signature="e#11410#12312#0" expanded="false" />
-            <element signature="e#11472#11532#0" expanded="false" />
-            <element signature="e#11883#12312#0" expanded="false" />
-            <element signature="e#12385#12423#0" expanded="false" />
-            <element signature="e#12502#12541#0" expanded="false" />
-            <element signature="e#12616#12658#0" expanded="false" />
+            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#497#517#0" expanded="false" />
+            <element signature="e#1565#1665#0" expanded="false" />
+            <element signature="e#2306#2385#0" expanded="false" />
+            <element signature="e#2464#2543#0" expanded="false" />
+            <element signature="e#2618#2713#0" expanded="false" />
+            <element signature="e#2824#2976#1" expanded="false" />
+            <element signature="e#4838#5125#0" expanded="false" />
+            <element signature="e#5212#5514#0" expanded="false" />
+            <element signature="e#5552#5627#0" expanded="false" />
+            <element signature="e#6143#6641#0" expanded="false" />
+            <element signature="e#6273#6435#0" expanded="false" />
+            <element signature="e#7239#7438#0" expanded="false" />
+            <element signature="e#7444#7473#1" expanded="false" />
+            <element signature="e#7513#7569#0" expanded="false" />
+            <element signature="e#7575#7600#1" expanded="false" />
+            <element signature="e#7641#8686#0" expanded="false" />
+            <element signature="e#7658#8485#0" expanded="false" />
+            <element signature="e#7706#8448#0" expanded="false" />
+            <element signature="e#7860#8448#0" expanded="false" />
+            <element signature="e#7923#8448#0" expanded="false" />
+            <element signature="e#8562#8680#0" expanded="false" />
+            <element signature="e#8735#8972#0" expanded="false" />
+            <element signature="e#9099#9441#0" expanded="false" />
+            <element signature="e#9476#9821#0" expanded="false" />
+            <element signature="e#9718#9738#0" expanded="false" />
+            <element signature="e#9859#10187#0" expanded="false" />
+            <element signature="e#10232#10410#0" expanded="false" />
+            <element signature="e#10232#10316#1" expanded="false" />
+            <element signature="e#10455#11348#0" expanded="false" />
+            <element signature="e#10455#10546#1" expanded="false" />
+            <element signature="e#10624#11010#0" expanded="false" />
+            <element signature="e#11395#12666#0" expanded="false" />
+            <element signature="e#11412#12314#0" expanded="false" />
+            <element signature="e#11474#11534#0" expanded="false" />
+            <element signature="e#11885#12314#0" expanded="false" />
+            <element signature="e#12387#12425#0" expanded="false" />
+            <element signature="e#12504#12543#0" expanded="false" />
+            <element signature="e#12618#12660#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/BaseAppiumImage.py">
+    <entry file="file://$PROJECT_DIR$/common/BaseElementEnmu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_run/runner_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

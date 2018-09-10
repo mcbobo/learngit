@@ -7,11 +7,11 @@ sVphone_name
 p3
 Vbrand1_model2_android_5.1.1
 p4
-sVfail
-p5
-L0L
 sVdevice
-p6
+p5
 V127.0.0.1:21503
+p6
+sVfail
 p7
+L0L
 sa.
