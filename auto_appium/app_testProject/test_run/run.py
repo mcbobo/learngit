@@ -3,8 +3,8 @@ import time
 import logging
 import sys
 import os
-from BSTestRunner import BSTestRunner
-from common.function import latest_report, send_mail, get_csv_data
+from common.BSTestRunner import BSTestRunner
+from common.BaseEmail import latest_report, send_mail, get_csv_data
 
 path = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(path)

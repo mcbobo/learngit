@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
-import re
+import time
 import os
+import re
 import threading
+
 import appium.common.exceptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.ui import WebDriverWait
 import selenium.common.exceptions
-from common.BaseElementEnmu import Element as be
-import time
-import os
+from Base.BaseElementEnmu import Element as be
+
+from common.BaseAppiumImage import AppiumImage
 
 '''
 # 此脚本主要用于查找元素是否存在，操作页面元素
@@ -21,12 +23,12 @@ class OperateElement:
         self.driver = driver
 
     def findElement(self, mOperate):
-        '''
+        """
         查找元素.mOperate,dict|list
         operate_type：对应的操作
         element_info：元素详情
         find_type: find类型
-        '''
+        """
         try:
             if type(mOperate) == list:  # 多检查点
                 for item in mOperate:
@@ -60,6 +62,9 @@ class OperateElement:
         except selenium.common.exceptions.WebDriverException:
             # print("WebDriver出现问题了")
             return {"result": False, "type": be.WEB_DROVER_EXCEPTION}
+
+    def find_element_by_image(self, img):
+        return AppiumImage(self.driver).element_position(img)
 
     '''
     查找元素.mOperate是字典
@@ -97,7 +102,8 @@ class OperateElement:
                 be.SET_VALUE: lambda: self.set_value(operate),
                 be.ADB_TAP: lambda: self.adb_tap(operate, device),
                 be.GET_CONTENT_DESC: lambda: self.get_content_desc(operate),
-                be.PRESS_KEY_CODE: lambda: self.press_keycode(operate)
+                be.PRESS_KEY_CODE: lambda: self.press_keycode(operate),
+                be.TAP: lambda: self.tap(operate)
 
             }
             return elements[operate.get("operate_type")]()
@@ -122,6 +128,10 @@ class OperateElement:
         except KeyError:
             # 如果key不存在，一般都是在自定义的page页面去处理了，这里直接返回为真
             return {"result": True}
+
+    def tap(self, mOperate):
+        self.driver.tap(self.elements_by(mOperate))
+        return {"result": True}
 
     # 获取到元素到坐标点击，主要解决浮动层遮档无法触发driver.click的问题
     def adb_tap(self, mOperate, device):
@@ -305,13 +315,27 @@ class OperateElement:
 
     # 封装常用的标签
     def elements_by(self, mOperate):
-
         elements = {
             be.find_element_by_id: lambda: self.driver.find_element_by_id(mOperate["element_info"]),
             be.find_element_by_xpath: lambda: self.driver.find_element_by_xpath(mOperate["element_info"]),
             be.find_element_by_css_selector: lambda: self.driver.find_element_by_css_selector(mOperate['element_info']),
             be.find_element_by_class_name: lambda: self.driver.find_element_by_class_name(mOperate['element_info']),
-            be.find_elements_by_id: lambda: self.driver.find_elements_by_id(mOperate['element_info'])
-
+            be.find_elements_by_id: lambda: self.driver.find_elements_by_id(mOperate['element_info']),
+            be.find_elements_by_image: lambda: self.find_element_by_image(mOperate['element_info'])
         }
         return elements[mOperate["find_type"]]()
+
+
+if __name__ == '__main__':
+    from common.desired_caps1 import appium_desired
+    from common.BaseYaml import getYam
+
+    p = r'..\yamls\home\firstOpen.yaml'
+    data = getYam(p)
+    # path = r'my.png'
+    # m = {'element_info': 'my.png', 'find_type': 'img'}
+    driver = appium_desired()
+    f = OperateElement(driver)
+    # pos = f.tap(data[1]['testcase'][0])
+    print(f.findElement(data[1]['testcase'][0]))
+    # print(data[1]['testcase'][0])

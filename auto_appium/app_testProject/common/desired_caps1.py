@@ -38,8 +38,11 @@ def appium_desired():
 
 
 if __name__ == '__main__':
-    appium_desired()
-
+    # appium_desired()
+    img = 'login'
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    img_path = os.path.join(base_dir, 'data', 'element', img + '.png')
+    print(img_path)
     # with open('../config/app_caps.yaml', 'r', encoding='utf-8') as file:
     #     data = yaml.load(file)
     #

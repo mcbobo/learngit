@@ -9,7 +9,7 @@ deviceName: 127.0.0.1:21503
 #deviceName: MX4
 
 appname: weixin.apk
-noReset: False
+noReset: True
 unicodeKeyboard: True
 resetKeyboard: True
 

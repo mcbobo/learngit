@@ -28,7 +28,9 @@ TEMP_FILE = TPATH(tempfile.gettempdir() + "/temp_screen.png")
 #     return wapper
 
 
-class BaseView:
+class AppiumImage:
+    position = {}
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -39,29 +41,40 @@ class BaseView:
         return self.driver.swipe(start_x, start_y, end_x, end_y, duration)
 
     # @set_imageSize
-    @classmethod
     def find_element_by_image(self, img_path):
         # 根据路径图片得到设备上的坐标,resolution为设备的分辨率字典比例（分辨率默认为900x500）
-        resolution = {1920: 2.13, 1280: 1.42, 1812: 2.013, 900: 1}
         flag = 0
-        # width = self.get_window_size().get('width')
+        imobj = cv2.imread(img_path)
+        resolution = {1920: 2.13, 1280: 1.42, 1812: 2.013, 900: 1}
         width, height = [self.get_window_size()[k] for k in ('width', 'height')]
+        longest = width if width > height else height
         while flag < 3:
-            imobj = ac.imread(img_path)
             self.driver.get_screenshot_as_file(TEMP_FILE)
-            imsrc = ac.imread(TEMP_FILE)
-            if width != 900 and width > height:
-                imsrc = cv2.resize(imsrc, (900, 500))
-            else:
-                imsrc = cv2.resize(imsrc, (500, 900))
+            imsrc = cv2.imread(TEMP_FILE)
+            if longest != 900:
+                if width > height:
+                    imsrc = cv2.resize(imsrc, (900, 500))
+                else:
+                    imsrc = cv2.resize(imsrc, (500, 900))
             try:
                 pos = ac.find_template(imsrc, imobj, 0.7).get('result')
             except AttributeError:
                 flag += 1
                 time.sleep(3)
             else:
-                return [tuple([i * resolution[width] for i in pos])]
+                return [tuple([i * resolution[longest] for i in pos])]
         raise NoSuchElementException('can not find element')
+
+    # @staticmethod
+    def element_position(self, img):
+        if AppiumImage.position.get(img):
+            return AppiumImage.position[img]
+        else:
+            base_dir = os.path.dirname(os.path.dirname(__file__))
+            img_path = os.path.join(base_dir, 'data', 'element', img)
+            p = self.find_element_by_image(img_path)
+            AppiumImage.position[img] = p
+            return AppiumImage.position[img]
 
     def _room_id_image(self):
         # 自定义截取范围，得到一个大概的房间id位置的图片（智萌德州房间id，写死了截取范围）
@@ -88,12 +101,18 @@ class BaseView:
 
 
 if __name__ == '__main__':
-    from common.desired_caps import appium_desired
+    from common.desired_caps1 import appium_desired
 
-    star_time = time.time()
     # path = r'../picture/loginBtn.png'
-    # path = r'D:\room1.png'
+    path = 'people.png'
     driver = appium_desired()
-    print(BaseView(driver).room_id())
+    star_time = time.time()
+    pos = AppiumImage(driver).element_position(path)
+    driver.tap(pos)
+    pos1 = AppiumImage(driver).element_position('my.png')
+    driver.tap(pos1)
+    time.sleep(3)
+    pos = AppiumImage(driver).element_position(path)
+    driver.tap(pos)
     end_time = time.time()
     print('total time:%s' % (end_time - star_time))
