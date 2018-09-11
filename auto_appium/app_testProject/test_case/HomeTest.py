@@ -1,39 +1,51 @@
-from common.BaseRunner import ParametrizedTestCase
 import os
 import sys
+import unittest
+from common.BaseRunner import ParametrizedTestCase
 from PageObject.Home.FirstOpenPage import FirstOpenPage
-
-from businessView.loginView import LoginView
-from common.BaseFile import get_csv_data
+from common.BaseYaml import getMultiYam
+from common.BaseSetupDown_new import UpDown
 
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
 )
 
 
-class HomeTest(ParametrizedTestCase):
-    def testFirstOpen(self):
-        app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/firstOpen.yaml"),
-               "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
-
-        page = FirstOpenPage(app)
-        page.operate()
-        page.checkPoint()
-
-    # def test_login_error(self):
-    #     csv_file = '../data/account.csv'
-    #     print('======test_login_error=====')
-    #     l = LoginView(self.driver)
-    #     data = get_csv_data(3, csv_file=csv_file)
+# class HomeTest(ParametrizedTestCase):
+class HomeTest(UpDown):
+    # @unittest.skip('testFirstOpen')
+    # def testFirstOpen(self):
+    #     # app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/firstOpen.yaml"),
+    #     #        "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+    #     data = getMultiYam(PATH("../yamls/home/firstOpen.yaml"))
+    #     app = {"logTest": self.logTest, "driver": self.driver, "data": data,
+    #            "device": self.devicesName, "caseName": 'test_open'}
     #
-    #     login_fail = l.login_action(data[0], data[1], self.devicesName)
-    #     self.assertFalse(login_fail, msg='login fail!')
+    #     page = FirstOpenPage(app)
+    #     page.operate()
+    #     page.checkPoint()
 
+    def testLogin(self):
+        # app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/firstOpen.yaml"),
+        #        "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
+        casename = 'multi_testcase'
+        t1 = r'D:\soft\pyc\test\auto_appium\app_testProject\yamls\home\firstOpen.yaml'
+        t2 = r'D:\soft\pyc\test\auto_appium\app_testProject\yamls\home\login.yaml'
+        self.template(casename, t1, t2)
 
-    @classmethod
-    def setUpClass(cls):
-        super(HomeTest, cls).setUpClass()
-
-    @classmethod
-    def tearDownClass(cls):
-        super(HomeTest, cls).tearDownClass()
+        # def template(self, case_name, *args):
+        #     data = getMultiYam(*args)
+        #     app = {"logTest": self.logTest, "driver": self.driver, "data": data,
+        #            "device": self.devicesName, "caseName": case_name}
+        #
+        #     page = FirstOpenPage(app)
+        #     page.operate()
+        #     page.checkPoint()
+        #
+        # @classmethod
+        # def setUpClass(cls):
+        #     super(HomeTest, cls).setUpClass()
+        #
+        # @classmethod
+        # def tearDownClass(cls):
+        #     super(HomeTest, cls).tearDownClass()

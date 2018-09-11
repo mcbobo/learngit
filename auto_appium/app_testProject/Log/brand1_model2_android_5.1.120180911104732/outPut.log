@@ -1,0 +1,4 @@
+2018-09-11 10:47:35,136  - INFO - ----  test001_第一次启动app_com.tencent.mm:id/d1w_click          ----
+2018-09-11 10:47:36,148  - INFO - ----  test001_第一次启动app_com.tencent.mm:id/hx_           ----
+2018-09-11 10:47:36,280  - INFO - [CheckPoint_1]: test_open_ : OK
+2018-09-11 10:47:58,245  - INFO - ----  test_login_失败重连        ----

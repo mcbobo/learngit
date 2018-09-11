@@ -30,14 +30,35 @@ def getYam(path):
         return [False, app]
 
 
+def getMultiYam(*args):
+    # 传入路径给getMultiYam将多个用例yaml文件合成一个用例
+    if len(args) > 1:
+        case = {"testcase": [], "check": [], "testinfo": [{'info': '', 'title': '', 'id': ''}]}
+        flag = []
+        for i in args:
+            info = getYam(i)
+            flag.append(info[0])
+            case["testcase"].extend(info[1]["testcase"])
+            case["check"].extend(info[1]["check"])
+            case["testinfo"][0]["title"] += info[1]["testinfo"][0]["title"] + '_'
+            case["testinfo"][0]["info"] += info[1]["testinfo"][0]["info"] + '_'
+            case["testinfo"][0]["id"] += info[1]["testinfo"][0]["id"] + '_'
+        return [all(flag), case]
+    else:
+        return getYam(args[0])
+
+
 if __name__ == '__main__':
     import os
 
     PATH = lambda p: os.path.abspath(
         os.path.join(os.path.dirname(__file__), p)
     )
-    t = getYam(PATH("../yaml/test.yaml"))
-    print(t)
+    # print(PATH("../yaml/home/firstOpen.yaml"))
+    t1 = r'D:\soft\pyc\test\auto_appium\app_testProject\yamls\home\firstOpen.yaml'
+    t2 = r'D:\soft\pyc\test\auto_appium\app_testProject\yamls\home\login.yaml'
+    print(getMultiYam(PATH("../yamls/home/firstOpen.yaml")))
+    # print(getMultiYam(t1, t2))
 
     # port = str(random.randint(4700, 4900))
     # bpport = str(random.randint(4700, 4900))

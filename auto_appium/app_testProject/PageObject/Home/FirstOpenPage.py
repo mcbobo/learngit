@@ -9,7 +9,9 @@ class FirstOpenPage:
     """
 
     def __init__(self, kwargs):
-        _init = {"driver": kwargs["driver"], "test_msg": getYam(kwargs["path"]), "device": kwargs["device"],
+        # _init = {"driver": kwargs["driver"], "test_msg": getYam(kwargs["path"]), "device": kwargs["device"],
+        #          "logTest": kwargs["logTest"], "caseName": kwargs["caseName"]}
+        _init = {"driver": kwargs["driver"], "test_msg": kwargs["data"], "device": kwargs["device"],
                  "logTest": kwargs["logTest"], "caseName": kwargs["caseName"]}
         self.page = Pages.PagesObjects(_init)
 

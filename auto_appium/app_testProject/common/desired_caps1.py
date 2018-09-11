@@ -38,17 +38,29 @@ def appium_desired():
 
 
 if __name__ == '__main__':
-    # appium_desired()
-    img = 'login'
-    base_dir = os.path.dirname(os.path.dirname(__file__))
-    img_path = os.path.join(base_dir, 'data', 'element', img + '.png')
-    print(img_path)
-    # with open('../config/app_caps.yaml', 'r', encoding='utf-8') as file:
-    #     data = yaml.load(file)
-    #
-    # base_dir=os.path.dirname(os.path.dirname(__file__))
-    # print(os.path.dirname(__file__))
-    # print(base_dir)
-    #
-    # app_path=os.path.join(base_dir,'app',data['appname'])
-    # print(app_path)
+    import sys
+
+
+    filenames = os.listdir(fdirp)
+
+    class T1:
+        @staticmethod
+        def app():
+            app = {'other': 'lala'}
+            return app
+
+        def test1(self):
+            t1 = self.app()
+            t1["caseName"] = sys._getframe().f_code.co_name
+            return t1
+
+        def test2(self):
+            t2 = T1.app()
+            t2["caseName"] = sys._getframe().f_code.co_name
+            return t2
+
+
+    t = T1()
+    print(t.test1())
+    print(t.test2())
+    print(t.app())
