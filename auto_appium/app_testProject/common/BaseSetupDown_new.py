@@ -13,7 +13,7 @@ class UpDown(pt):
     def tearDownClass(cls):
         super(UpDown, cls).tearDownClass()
 
-    def template(self, case_name, *args):
+    def template(self, case_name='', *args):
         # 用例模板，参数化后，可以遍历文件夹传入文件名，跑文件夹下的全部用例
         data = getMultiYam(*args)
         app = {"logTest": self.logTest, "driver": self.driver, "data": data,

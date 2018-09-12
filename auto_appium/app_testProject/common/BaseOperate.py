@@ -3,6 +3,7 @@ import time
 import os
 import re
 import threading
+import subprocess
 
 import appium.common.exceptions
 from selenium.webdriver.common.by import By
@@ -100,6 +101,7 @@ class OperateElement:
                 be.CLICK: lambda: self.click(operate),
                 be.GET_VALUE: lambda: self.get_value(operate),
                 be.SET_VALUE: lambda: self.set_value(operate),
+                be.FAST_SET_VALUE: lambda: self.fast_set_value(operate, device),
                 be.ADB_TAP: lambda: self.adb_tap(operate, device),
                 be.GET_CONTENT_DESC: lambda: self.get_content_desc(operate),
                 be.PRESS_KEY_CODE: lambda: self.press_keycode(operate),
@@ -259,12 +261,25 @@ class OperateElement:
         self.elements_by(mOperate).send_keys(mOperate["msg"])
         return {"result": True}
 
+    def fast_set_value(self, mOperate, device):
+        """
+        输入值，解决send_keys输入过慢的问题,好像时间消耗跟上面的差不多，bad
+        :param mOperate: 
+        :param device: 
+        :return: 
+        """
+        self.elements_by(mOperate).click()
+        time.sleep(0.3)
+        subprocess.Popen('adb -s %s shell input text %s' % (device, mOperate["msg"]), shell=True)
+        time.sleep(0.3)
+        return {"result": True}
+
     def get_value(self, mOperate):
-        '''
+        """
         读取element的值,支持webview下获取值
         :param mOperate:
         :return:
-        '''
+        """
 
         if mOperate.get("find_type") == be.find_elements_by_id:
             element_info = self.elements_by(mOperate)[mOperate["index"]]

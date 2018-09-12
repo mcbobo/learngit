@@ -15,6 +15,7 @@ from common.BaseStatistics import countDate, writeExcel, countSumDevices
 from common.BasePickle import *
 from datetime import datetime
 from common.BaseApk import ApkInfo
+from test_case.case_manager import CaseManager
 
 PATH = lambda p: os.path.abspath(
     os.path.join(os.path.dirname(__file__), p)
@@ -57,13 +58,14 @@ def runnerPool(getDevices):
 
 
 def runnerCaseApp(devices):
-    starttime = datetime.now()
-    suite = unittest.TestSuite()
-    suite.addTest(ParametrizedTestCase.parametrize(HomeTest, param=devices))
-    # suite.addTest(ParametrizedTestCase.parametrize(HomeTest, param=devices)) #加入测试类
-    unittest.TextTestRunner(verbosity=2).run(suite)
-    endtime = datetime.now()
-    countDate(datetime.now().strftime('%Y-%m-%d %H:%M:%S'), str((endtime - starttime).seconds) + "秒")
+    # starttime = datetime.now()
+    # suite = unittest.TestSuite()
+    # suite.addTest(ParametrizedTestCase.parametrize(HomeTest, param=devices))
+    # # suite.addTest(ParametrizedTestCase.parametrize(HomeTest, param=devices)) #加入测试类
+    # unittest.TextTestRunner(verbosity=2).run(suite)
+    # endtime = datetime.now()
+    # countDate(datetime.now().strftime('%Y-%m-%d %H:%M:%S'), str((endtime - starttime).seconds) + "秒")
+    return CaseManager(devices).runner_case_app()
 
 
 if __name__ == '__main__':

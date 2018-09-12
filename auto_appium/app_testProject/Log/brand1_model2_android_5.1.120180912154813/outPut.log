@@ -1,0 +1,7 @@
+2018-09-12 15:48:20,286  - INFO - ----  test001_第一次启动app_com.tencent.mm:id/d1w_click          ----
+2018-09-12 15:48:21,103  - INFO - ----  test001_第一次启动app_com.tencent.mm:id/hx_           ----
+2018-09-12 15:48:21,268  - INFO - [CheckPoint_1]: testLogin_ : OK
+2018-09-12 15:48:23,433  - INFO - ----  test002_登录_com.tencent.mm:id/d1w_click          ----
+2018-09-12 15:48:24,669  - INFO - ----  test002_登录_com.tencent.mm:id/hx_send_keys 13726221317        ----
+2018-09-12 15:48:28,937  - INFO - ----  test002_登录_user_login.png_           ----
+2018-09-12 15:48:29,043  - INFO - [CheckPoint_2]: testLogin_ : OK

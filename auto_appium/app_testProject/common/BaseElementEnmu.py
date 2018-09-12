@@ -12,6 +12,7 @@ class Element(object):
     TAP = "tap"
     ACCESSIBILITY = "accessibility"
     ADB_TAP = "adb_tap"
+    FAST_SET_VALUE = "send_keys"
     SWIPE_DOWN = "swipe_down"
     SWIPE_UP = "swipe_up"
     SWIPE_LEFT = "swipe_left"

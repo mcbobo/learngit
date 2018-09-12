@@ -3,13 +3,13 @@ testinfo:
       title: 登录
       info: 输入账号
 testcase:
-#    - element_info: com.tencent.mm:id/d1w
-#      find_type: id
-#     operate_type: click
-#      info: 登录
+    - element_info: com.tencent.mm:id/d1w
+      find_type: id
+      operate_type: click
+      info: 登录
     - element_info: com.tencent.mm:id/hx
       find_type: id
-      operate_type: set_value
+      operate_type: send_keys
       msg: '13726221317'
       info: 输入账号
 #    - element_info: my.png
