@@ -24,8 +24,8 @@ testcase:
 #      info: 点击取消收藏按钮
 
 check:
-#    - element_info: com.tencent.mm:id/hx
-    - element_info: user_login.png
+    - element_info: com.tencent.mm:id/hx
+#   - element_info: user_login.png
       find_type: img
       check: default_check
       info: 输入成功

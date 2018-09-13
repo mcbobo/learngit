@@ -169,6 +169,8 @@ class myLog:
 
 
 if __name__ == "__main__":
-    logTest = myLog.getLog("devices")
+    # logTest = myLog.getLog("devices")
     # logger = logTest.getMyLogger()
-    logTest.buildStartLine("11111111111111111111111")
+    # logTest.buildStartLine("11111111111111111111111")
+    resultPath = PATH("../log")
+    print(resultPath)

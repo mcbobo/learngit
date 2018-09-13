@@ -1,6 +1,0 @@
-2018-09-12 14:51:35,427  - INFO - ----  testLogin_失败重连        ----
-2018-09-12 14:51:57,605  - INFO - [CheckPoint_1]: testLogin_用例失败重连过一次，失败原因:执行过程中失败，请检查元素是否存在com.tencent.mm:id/d1w, 
-执行过程中失败，请检查元素是否存在com.tencent.mm:id/d1w, : NG
-2018-09-12 14:52:20,669  - INFO - ----  testLogin_失败重连        ----
-2018-09-12 14:52:42,313  - INFO - [CheckPoint_2]: testLogin_用例失败重连过一次，失败原因:执行过程中失败，请检查元素是否存在com.tencent.mm:id/d1w, 
-执行过程中失败，请检查元素是否存在com.tencent.mm:id/d1w, : NG

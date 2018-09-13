@@ -32,6 +32,7 @@ class OperateReport:
         define_format_H1.set_border(1)
 
         define_format_H2.set_border(1)
+        # define_format_H1.set_align("center")
         define_format_H1.set_align("center")
         define_format_H2.set_align("center")
         define_format_H2.set_bg_color("blue")

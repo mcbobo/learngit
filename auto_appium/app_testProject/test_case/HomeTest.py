@@ -13,23 +13,13 @@ PATH = lambda p: os.path.abspath(
 
 # class HomeTest(ParametrizedTestCase):
 class HomeTest(UpDown):
-    @unittest.skip('testFirstOpen')
+    # @unittest.skip('testFirstOpen')
     def testFirstOpen(self):
-        # app = {"logTest": self.logTest, "driver": self.driver, "path": PATH("../yamls/home/firstOpen.yaml"),
-        #        "device": self.devicesName, "caseName": sys._getframe().f_code.co_name}
-        data = getMultiYam(PATH("../yamls/home/firstOpen.yaml"))
-        app = {"logTest": self.logTest, "driver": self.driver, "data": data,
-               "device": self.devicesName, "caseName": 'test_open'}
-
-        page = FirstOpenPage(app)
-        page.operate()
-        page.checkPoint()
-
-    def testLogin(self):
         casename = sys._getframe().f_code.co_name
-        test_dir = PATH('../yamls/home')
-        files = os.listdir(test_dir)
-        files_path = [os.path.join(test_dir, i) for i in files]
-        for path in files_path:
-            self.template(casename, path)
+        path = PATH('../yamls/home/firstOpen.yaml')
+        self.template(casename, path)
 
+    @unittest.skip('all')
+    def testLogin(self):
+        test_dir = PATH('../yamls/home')
+        self.allCase(test_dir)

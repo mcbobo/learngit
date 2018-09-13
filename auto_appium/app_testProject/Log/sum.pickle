@@ -1,31 +1,31 @@
 (dp0
-VversionCode
+VpackingTime
 p1
-V40
+V2017/12/4 13:00
 p2
-sVsum
+sVfail
 p3
-L4L
+L0L
 sVtestDate
 p4
-V2018-09-12 17:05:15
+V2018-09-13 17:26:06
 p5
 sVtestSumDate
 p6
-V38\u79d2
+V12\u79d2
 p7
-sVpackingTime
+sVsum
 p8
-V2017/12/4 13:00
+L1L
+sVversionCode
 p9
-sVversionName
+V40
 p10
-V1.4.0
-p11
 sVpass
+p11
+L1L
+sVversionName
 p12
-L4L
-sVfail
+V1.4.0
 p13
-L0L
 s.

@@ -40,9 +40,9 @@ def getMultiYam(*args):
             flag.append(info[0])
             case["testcase"].extend(info[1]["testcase"])
             case["check"].extend(info[1]["check"])
-            case["testinfo"][0]["title"] += info[1]["testinfo"][0]["title"] + '_'
-            case["testinfo"][0]["info"] += info[1]["testinfo"][0]["info"] + '_'
-            case["testinfo"][0]["id"] += info[1]["testinfo"][0]["id"] + '_'
+            case["testinfo"][0]["title"] += info[1]["testinfo"][0]["title"] + '\n'
+            case["testinfo"][0]["info"] += info[1]["testinfo"][0]["info"] + '\n'
+            case["testinfo"][0]["id"] += info[1]["testinfo"][0]["id"] + '\n'
         return [all(flag), case]
     else:
         return getYam(args[0])
@@ -57,8 +57,8 @@ if __name__ == '__main__':
     # print(PATH("../yaml/home/firstOpen.yaml"))
     t1 = r'D:\soft\pyc\test\auto_appium\app_testProject\yamls\home\firstOpen.yaml'
     t2 = r'D:\soft\pyc\test\auto_appium\app_testProject\yamls\home\login.yaml'
-    print(getMultiYam(PATH("../yamls/home/firstOpen.yaml")))
-    # print(getMultiYam(t1, t2))
+    # print(getMultiYam(PATH("../yamls/home/firstOpen.yaml")))
+    print(getMultiYam(t1, t2))
 
     # port = str(random.randint(4700, 4900))
     # bpport = str(random.randint(4700, 4900))

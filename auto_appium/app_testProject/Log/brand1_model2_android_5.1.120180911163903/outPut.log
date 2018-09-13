@@ -1,5 +1,0 @@
-2018-09-11 16:39:06,022  - INFO - ----  test001_test002__第一次启动app_登录__com.tencent.mm:id/d1w_click          ----
-2018-09-11 16:39:06,893  - INFO - ----  test001_test002__第一次启动app_登录__com.tencent.mm:id/hx_set_value 13726221317        ----
-2018-09-11 16:39:12,364  - INFO - ----  test001_test002__第一次启动app_登录__com.tencent.mm:id/hx_           ----
-2018-09-11 16:39:12,659  - INFO - ----  test001_test002__第一次启动app_登录__user_login.png_           ----
-2018-09-11 16:39:12,807  - INFO - [CheckPoint_1]: multi_testcase_ : OK

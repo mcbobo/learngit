@@ -17,8 +17,8 @@
           <file leaf-file-name="runner_new.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test_run/runner_new.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+                <state relative-caret-position="729">
+                  <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
                   <folding>
                     <element signature="e#933#1770#0" expanded="false" />
                     <element signature="e#1805#1833#0" expanded="false" />
@@ -28,35 +28,37 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FirstOpenPage.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/PageObject/Home/FirstOpenPage.py">
+          <file leaf-file-name="BasePickle.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/common/BasePickle.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <element signature="e#0#34#0" expanded="true" />
+                    <element signature="e#0#13#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="devices.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/common/devices.py">
+          <file leaf-file-name="BaseStatistics.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/common/BaseStatistics.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-                  <folding />
+                <state relative-caret-position="513">
+                  <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#17#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="common_fun.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/common/common_fun.py">
+          <file leaf-file-name="BaseLog.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/common/BaseLog.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+                <state relative-caret-position="360">
+                  <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
                   <folding>
-                    <element signature="e#15#26#0" expanded="true" />
+                    <element signature="e#0#14#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -65,43 +67,27 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="BaseElementEnmu.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/common/BaseElementEnmu.py">
+        <leaf>
+          <file leaf-file-name="BaseAndroidPhone.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/common/BaseAndroidPhone.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-                  <folding />
+                <state relative-caret-position="1064">
+                  <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#24#33#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="case_manager.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test_case/case_manager.py">
+          <file leaf-file-name="desired_caps.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/common/desired_caps.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test_login_new.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_case/test_case/test_login_new.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="BaseRunner.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/common/BaseRunner.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="29">
-                  <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-                  <folding />
+                <state relative-caret-position="171">
+                  <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#0#28#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -119,12 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>imag</find>
-      <find>im</find>
-      <find>touch</find>
-      <find>tap</find>
-      <find>b</find>
-      <find>ba</find>
       <find>A</find>
       <find>B</find>
       <find>Ba</find>
@@ -149,6 +129,12 @@
       <find>fast</find>
       <find>send_keys</find>
       <find>yamls/home</find>
+      <find>write</find>
+      <find>set_border</find>
+      <find>set_row</find>
+      <find>get_format</find>
+      <find>testCheck</find>
+      <find>writeResult</find>
     </findStrings>
     <replaceStrings>
       <replace>self.driver.find_element</replace>
@@ -173,19 +159,22 @@
         <option value="$PROJECT_DIR$/config/app_caps.yaml" />
         <option value="$PROJECT_DIR$/common/BaseAppiumImage.py" />
         <option value="$PROJECT_DIR$/yamls/home/firstOpen.yaml" />
-        <option value="$PROJECT_DIR$/common/desired_caps1.py" />
         <option value="$PROJECT_DIR$/PageObject/Home/FirstOpenPage.py" />
         <option value="$PROJECT_DIR$/common/BaseRunner.py" />
         <option value="$PROJECT_DIR$/test_case/test_login.py" />
-        <option value="$PROJECT_DIR$/common/BaseYaml.py" />
-        <option value="$PROJECT_DIR$/common/BaseSetupDown_new.py" />
-        <option value="$PROJECT_DIR$/test_case/HomeTest.py" />
         <option value="$PROJECT_DIR$/common/BaseElementEnmu.py" />
         <option value="$PROJECT_DIR$/common/BaseOperate.py" />
         <option value="$PROJECT_DIR$/test_case/TestClass.py" />
         <option value="$PROJECT_DIR$/test_run/runner_new.py" />
         <option value="$PROJECT_DIR$/test_case/test_case/test_login_new.py" />
         <option value="$PROJECT_DIR$/test_case/case_manager.py" />
+        <option value="$PROJECT_DIR$/common/desired_caps1.py" />
+        <option value="$PROJECT_DIR$/common/BaseSetupDown_new.py" />
+        <option value="$PROJECT_DIR$/test_case/HomeTest.py" />
+        <option value="$PROJECT_DIR$/common/BaseExcel.py" />
+        <option value="$PROJECT_DIR$/common/BaseYaml.py" />
+        <option value="$PROJECT_DIR$/common/BaseAndroidPhone.py" />
+        <option value="$PROJECT_DIR$/common/BaseLog.py" />
       </list>
     </option>
   </component>
@@ -210,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -349,12 +339,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../docx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../appium_skr" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -396,19 +385,22 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for HomeTest.HomeTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="desired_caps1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="kyb_testProject" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;HomeTest.HomeTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/desired_caps1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="BaseYaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -429,21 +421,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for HomeTest.HomeTest (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="kyb_testProject" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;HomeTest.HomeTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
     <configuration default="false" name="Unittests for HomeTest.HomeTest.testFirstOpen" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -457,6 +434,24 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;HomeTest.HomeTest.testFirstOpen&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BaseLog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="kyb_testProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/BaseLog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -525,18 +520,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.runner_new" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for HomeTest.HomeTest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.desired_caps1" />
       <item index="2" class="java.lang.String" itemvalue="Python.BaseYaml" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for HomeTest.HomeTest (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for HomeTest.HomeTest.testFirstOpen" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for HomeTest.HomeTest.testFirstOpen" />
+      <item index="4" class="java.lang.String" itemvalue="Python.BaseLog" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.runner_new" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for HomeTest.HomeTest.testFirstOpen" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BaseLog" />
         <item index="2" class="java.lang.String" itemvalue="Python.BaseYaml" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for HomeTest.HomeTest (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for HomeTest.HomeTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for HomeTest.HomeTest.testFirstOpen" />
+        <item index="4" class="java.lang.String" itemvalue="Python.desired_caps1" />
       </list>
     </recent_temporary>
   </component>
@@ -563,11 +558,20 @@
     <history-entry file="Unittests_for_HomeTest_HomeTest_testFirstOpen - 2018.09.11 at 16h 47m 17s.xml">
       <configuration name="Unittests for HomeTest.HomeTest.testFirstOpen" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_HomeTest_HomeTest_testFirstOpen - 2018.09.13 at 14h 34m 32s.xml">
+      <configuration name="Unittests for HomeTest.HomeTest.testFirstOpen" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_for_test_login_TestLogin - 2018.05.25 at 17h 28m 08s.xml">
       <configuration name="Unittests for test_login.TestLogin" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_register_RegisterTest_test_user_register - 2018.05.25 at 16h 51m 34s.xml">
       <configuration name="Unittests for test_register.RegisterTest.test_user_register" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_BaseSetupDown_new_py - 2018.09.13 at 10h 21m 24s.xml">
+      <configuration name="Unittests in BaseSetupDown_new.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_BaseSetupDown_new_py - 2018.09.13 at 10h 21m 44s.xml">
+      <configuration name="Unittests in BaseSetupDown_new.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_HomeTest_py - 2018.09.11 at 09h 39m 33s.xml">
       <configuration name="Unittests in HomeTest.py" configurationId="tests" />
@@ -581,13 +585,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25581396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25475687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2589852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -622,44 +626,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reports/2018-05-26 08_22_00 test_report.html" />
-    <entry file="file://$PROJECT_DIR$/reports/2018-05-26 08_26_33 test_report.html" />
-    <entry file="file://$PROJECT_DIR$/screenshots/login fail_2018-05-25 17_31_59.png" />
-    <entry file="file://$PROJECT_DIR$/screenshots/startApp_2018-05-23 17_50_39.png" />
-    <entry file="file://$PROJECT_DIR$/baseView/baseView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/desired_caps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/kyb_caps.yaml" />
-    <entry file="file://$PROJECT_DIR$/config/log.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/businessView/registerView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/2018-05-25 18_16_44 test_report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -676,13 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/login fail_2018-05-24 12_12_24.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/register fail_2018-05-25 10_46_34.png" />
-    <entry file="file://$PROJECT_DIR$/test_case/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_register.py" />
     <entry file="file://$PROJECT_DIR$/common/myunit.py" />
     <entry file="file://$PROJECT_DIR$/test_run/run.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/desired_caps1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/unittest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -797,26 +758,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/xlsxwriter/workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="647" column="47" lean-forward="true" selection-start-line="647" selection-start-column="47" selection-end-line="647" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_login.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.1/system/python_stubs/-237927859/nt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="199" column="4" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,22 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="538" column="25" lean-forward="false" selection-start-line="538" selection-start-column="25" selection-end-line="538" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/BaseYaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="57" column="48" lean-forward="false" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/BaseSetupDown_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -854,22 +784,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/HomeTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/BaseSetupDown.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/BaseOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="315" column="36" lean-forward="true" selection-start-line="315" selection-start-column="36" selection-end-line="315" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/TestClass.py" />
+    <entry file="file://$PROJECT_DIR$/common/BaseRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="57" column="62" lean-forward="true" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common_fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
           <folding>
-            <element signature="e#0#14#0" expanded="false" />
+            <element signature="e#15#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,33 +825,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/common_fun.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/xlsxwriter/format.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="277">
+          <caret line="289" column="8" lean-forward="false" selection-start-line="289" selection-start-column="8" selection-end-line="289" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/BaseOperate.py">
+    <entry file="file://$PROJECT_DIR$/test_case/test_case/test_login_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="315" column="36" lean-forward="true" selection-start-line="315" selection-start-column="36" selection-end-line="315" selection-end-column="36" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-            <element signature="e#7740#8785#0" expanded="false" />
-            <element signature="e#10567#10920#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/TestClass.py">
+    <entry file="file://$PROJECT_DIR$/common/desired_caps1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/xlsxwriter/workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="1600" column="8" lean-forward="false" selection-start-line="1600" selection-start-column="8" selection-end-line="1600" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/xlsxwriter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageObject/Home/FirstOpenPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/xlsxwriter/worksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1459" column="8" lean-forward="false" selection-start-line="1459" selection-start-column="8" selection-end-line="1459" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/BaseExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2530">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#17#0" expanded="false" />
+            <element signature="e#6064#6086#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/BaseSetupDown_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#15#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/BasePickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/BaseYaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="44" column="75" lean-forward="false" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/HomeTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/case_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -920,26 +950,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/BaseRunner.py">
+    <entry file="file://$PROJECT_DIR$/common/BaseAndroidPhone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="51" column="6" lean-forward="false" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="1064">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_case/test_login_new.py">
+    <entry file="file://$PROJECT_DIR$/common/desired_caps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_run/runner_new.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="729">
+          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
           <folding>
             <element signature="e#933#1770#0" expanded="false" />
             <element signature="e#1805#1833#0" expanded="false" />
@@ -948,21 +982,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageObject/Home/FirstOpenPage.py">
+    <entry file="file://$PROJECT_DIR$/common/BaseStatistics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="513">
+          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/case_manager.py">
+    <entry file="file://$PROJECT_DIR$/common/BaseLog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="360">
+          <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

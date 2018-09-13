@@ -38,29 +38,14 @@ def appium_desired():
 
 
 if __name__ == '__main__':
-    import sys
-
-
-    filenames = os.listdir(fdirp)
-
-    class T1:
-        @staticmethod
-        def app():
-            app = {'other': 'lala'}
-            return app
-
-        def test1(self):
-            t1 = self.app()
-            t1["caseName"] = sys._getframe().f_code.co_name
-            return t1
-
-        def test2(self):
-            t2 = T1.app()
-            t2["caseName"] = sys._getframe().f_code.co_name
-            return t2
-
-
-    t = T1()
-    print(t.test1())
-    print(t.test2())
-    print(t.app())
+    if __name__ == '__main__':
+        rootDir = r'D:\other\test'
+        files_path = []
+        for rt, dirs, fileNames in os.walk(rootDir):
+            files = os.listdir(rt)
+            files = filter(lambda x: x if x in fileNames else None, files)
+            files_path.extend([os.path.join(rt, i) for i in files])
+        print(files_path)
+        # a = []
+        # for i in a:
+        #     print('a')
