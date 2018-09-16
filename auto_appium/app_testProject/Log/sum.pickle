@@ -8,24 +8,24 @@ p3
 L0L
 sVtestDate
 p4
-V2018-09-13 17:26:06
+V2018-09-16 16:28:55
 p5
-sVtestSumDate
+sVversionCode
 p6
-V12\u79d2
+V40
 p7
 sVsum
 p8
 L1L
-sVversionCode
+sVtestSumDate
 p9
-V40
+V11\u79d2
 p10
-sVpass
-p11
-L1L
 sVversionName
-p12
+p11
 V1.4.0
+p12
+sVpass
 p13
+L1L
 s.

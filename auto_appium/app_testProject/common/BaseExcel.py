@@ -40,6 +40,7 @@ class OperateReport:
 
         worksheet.merge_range('A1:E1', '测试报告总概况', define_format_H1)
         worksheet.merge_range('A2:E2', 'WebLink知识测试概括', define_format_H2)
+        # worksheet.merge_range('A7:C7', '设备通过概括', define_format_H2)
 
         _write_center(worksheet, "A3", 'versionCode', self.wd)
         _write_center(worksheet, "A4", 'versionName', self.wd)
@@ -66,14 +67,16 @@ class OperateReport:
 
         worksheet.merge_range('E4:E6', 'appium1.7+python3', get_format_center(self.wd))
         _write_center(worksheet, "A8", '机型', self.wd)
-        _write_center(worksheet, "B8", '通过', self.wd)
-        _write_center(worksheet, "C8", '失败', self.wd)
+        _write_center(worksheet, "B8", '版本', self.wd)
+        _write_center(worksheet, "C8", '通过', self.wd)
+        _write_center(worksheet, "D8", '失败', self.wd)
 
         temp = 9
         for item in devices:
             _write_center(worksheet, "A%s" % temp, item["phone_name"], self.wd)
-            _write_center(worksheet, "B%s" % temp, item["pass"], self.wd)
-            _write_center(worksheet, "C%s" % temp, item["fail"], self.wd)
+            _write_center(worksheet, "B%s" % temp, item["release"], self.wd)
+            _write_center(worksheet, "C%s" % temp, item["pass"], self.wd)
+            _write_center(worksheet, "D%s" % temp, item["fail"], self.wd)
             temp = temp + 1
 
         pie(self.wd, worksheet)
@@ -178,7 +181,7 @@ def pie(workbook, worksheet):
     })
     chart1.set_title({'name': '测试统计'})
     chart1.set_style(10)
-    worksheet.insert_chart('D8', chart1, {'x_offset': 25, 'y_offset': 10})
+    worksheet.insert_chart('E7', chart1, {'x_offset': 10, 'y_offset': 10})
 
 
 if __name__ == '__main__':
