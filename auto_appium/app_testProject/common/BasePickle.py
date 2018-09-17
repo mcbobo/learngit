@@ -45,4 +45,7 @@ def writeInfo(data="", path="data.pickle"):
 
 if __name__ == "__main__":
     # write("用例失败重连过一次，失败原因：", "../Log/connect64dd15b8-ca91-11e7-87ae-38c98647adce.pickle")
+    # a = readInfo(r'D:\Appium\AutoTest\auto_appium\app_testProject\Log\devices.pickle')
+    # b = readInfo(r'D:\Appium\AutoTest\auto_appium\app_testProject\Log\info.pickle')
+    b = readInfo(r'D:\Appium\AutoTest\auto_appium\app_testProject\Log\sum.pickle')
     pass

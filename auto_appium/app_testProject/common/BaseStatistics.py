@@ -68,12 +68,13 @@ def countInfo(**kwargs):
 
 
 # 本地没有设备用例的记录统计
-def countSumNoDevices(devices, result, _read, phone_name):
+def countSumNoDevices(devices, result, _read, phone_info):
     if _read is None:
         _read = []
     # get_phone = getPhoneInfo(devices)
     # phone_name = get_phone["brand"] + "_" + get_phone["model"] + "_" + "android" + "_" + get_phone["release"]
-    app = {"phone_name": phone_name, "pass": 0, "fail": 0, "device": devices}
+    app = {"phone_name": phone_info['phone_name'], "pass": 0, "fail": 0, "device": devices,
+           "release": phone_info['release']}
     if result:
         app["pass"] = 1
     else:
@@ -86,7 +87,7 @@ def countSumNoDevices(devices, result, _read, phone_name):
 
 
 # 统计各个设备成功失败的用例数
-def countSumDevices(devices, result, phone_name):
+def countSumDevices(devices, result, phone_info):
     _read = readInfo(PATH("../Log/" + Element.DEVICES_FILE))
     if _read:
         for item in _read:
@@ -97,7 +98,7 @@ def countSumDevices(devices, result, phone_name):
                     item["fail"] = item["fail"] + 1
                 write(data=_read, path=PATH("../Log/" + Element.DEVICES_FILE))
                 return
-    countSumNoDevices(devices, result, _read, phone_name=phone_name)
+    countSumNoDevices(devices, result, _read, phone_info=phone_info)
     print(read(PATH("../Log/" + Element.DEVICES_FILE)))
 
     # else:
@@ -127,7 +128,7 @@ def countSum(result):
 #     write(msg, path=path)
 #     # print(read_reconnect(path))
 
-
+# 统计所有用例开始时间和消耗时间
 def countDate(testDate, testSumDate):
     print("--------- countDate------")
     data = read(PATH("../Log/" + Element.SUM_FILE))

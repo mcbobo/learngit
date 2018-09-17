@@ -1,9 +1,8 @@
-
 # -*- coding: utf-8 -*-
-
 import subprocess
-
 import os
+import re
+import zipfile
 import random
 
 
@@ -29,7 +28,7 @@ class AndroidDebugBridge(object):
         # result = self.call_adb("devices")
         devices = []
         result = subprocess.Popen("adb devices", shell=True, stdout=subprocess.PIPE,
-                                         stderr=subprocess.PIPE).stdout.readlines()
+                                  stderr=subprocess.PIPE).stdout.readlines()
 
         for item in result:
             t = item.decode().split("\tdevice")
@@ -38,12 +37,14 @@ class AndroidDebugBridge(object):
         # print(result)
         # print(devices)
         return devices
+
     # 状态
     def get_state(self):
         result = self.call_adb("get-state")
         result = result.strip(' \t\n\r')
         return result or None
-    #重启
+
+    # 重启
     def reboot(self, option):
         command = "reboot"
         if len(option) > 7 and option in ("bootloader", "recovery",):
@@ -59,6 +60,7 @@ class AndroidDebugBridge(object):
     def pull(self, remote, local):
         result = self.call_adb("pull %s %s" % (remote, local))
         return result
+
     # 同步更新 很少用此命名
     def sync(self, directory, **kwargs):
         command = "sync %s" % directory
@@ -68,7 +70,7 @@ class AndroidDebugBridge(object):
             return result
 
     # 打开指定app
-    def open_app(self,packagename,activity):
+    def open_app(self, packagename, activity):
         result = self.call_adb("shell am start -n %s/%s" % (packagename, activity))
         check = result.partition('\n')[2].replace('\n', '').split('\t ')
         if check[0].find("Error") >= 1:
@@ -78,7 +80,7 @@ class AndroidDebugBridge(object):
 
     # 根据包名得到进程id
     def get_app_pid(self, pkg_name):
-        string = self.call_adb("shell ps | grep "+pkg_name)
+        string = self.call_adb("shell ps | grep " + pkg_name)
         # print(string)
         if string == '':
             return "the process doesn't exist."
@@ -86,9 +88,46 @@ class AndroidDebugBridge(object):
         # print(result[4])
         return result[4]
 
-if __name__ == '__main__':
+    @staticmethod
+    def _app_info(apk_path, findstr=''):
+        cmd = "aapt dump badging " + apk_path + " " + findstr
+        output = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.read()
+        return output.decode('utf-8')
 
+    # 根据包路径得到包版本名称
+    def get_app_info(self, apk_path):
+        app = {}
+        output = self._app_info(apk_path)
+        match = re.compile("package: name='(\S+)' versionCode='(\d+)' versionName='(\S+)'").match(output)
+        if not match:
+            print(output)
+            raise Exception("can't get packageinfo")
+
+        app["packagename"] = match.group(1)  # 包名
+        app["versionCode"] = match.group(2)  # 版本号
+        app["versionName"] = match.group(3)  # 版本名称
+        return app
+
+    # 包icon
+    def get_app_icon(self, apk_path):
+        findstr = "| findstr application-icon-120"
+        output = self._app_info(apk_path, findstr)
+        # iconPath = output.split(':')[1][1:-3]
+        iconPath = output[22:len(output) - 3]
+
+        zip = zipfile.ZipFile(apk_path)
+        iconData = zip.read(iconPath)
+        #
+        # with open(r'D:/test.png', 'w+b') as saveIconFile:
+        #     saveIconFile.write(iconData)
+        return iconData
+
+
+if __name__ == '__main__':
     # reuslt = AndroidDebugBridge().attached_devices()
     # print(reuslt)
 
-    print(os.popen("adb devices", 'r').readline())
+    # print(os.popen("adb devices", 'r').readline())
+    path = r'D:\Download\BaiduNetdiskDownload\dr.fone3.2.0.apk'
+    t = AndroidDebugBridge().get_app_icon(path)
+    print(t)

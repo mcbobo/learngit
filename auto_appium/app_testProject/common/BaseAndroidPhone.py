@@ -18,6 +18,7 @@ def getPhoneInfo(devices):
     brand = "ro.product.brand="  # 品牌
     device = "ro.product.device="  # 设备名
     for line in phone_info:
+        print(line)
         for i in line.split():
             temp = i.decode()
             if temp.find(release) >= 0:
@@ -67,5 +68,6 @@ def get_app_pix(devices):
     return result.readline().split("Physical size:")[1]
 
 
+
 if __name__ == "__main__":
-    getPhoneInfo("DU2TAN15AJ049163")
+    getPhoneInfo("127.0.0.1:21503")
