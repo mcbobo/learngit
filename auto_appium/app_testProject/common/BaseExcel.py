@@ -39,17 +39,17 @@ class OperateReport:
         define_format_H2.set_color("#ffffff")
 
         worksheet.merge_range('A1:E1', '测试报告总概况', define_format_H1)
-        worksheet.merge_range('A2:E2', 'WebLink知识测试概括', define_format_H2)
+        worksheet.merge_range('A2:E2', '%s知识测试概括' % data["appName"], define_format_H2)
         # worksheet.merge_range('A7:C7', '设备通过概括', define_format_H2)
 
         _write_center(worksheet, "A3", 'versionCode', self.wd)
         _write_center(worksheet, "A4", 'versionName', self.wd)
-        _write_center(worksheet, "A5", 'packingTime', self.wd)
+        _write_center(worksheet, "A5", 'packageName', self.wd)
         _write_center(worksheet, "A6", '测试日期', self.wd)
 
         _write_center(worksheet, "B3", data['versionCode'], self.wd)
         _write_center(worksheet, "B4", data['versionName'], self.wd)
-        _write_center(worksheet, "B5", data['packingTime'], self.wd)
+        _write_center(worksheet, "B5", data['packageName'], self.wd)
         _write_center(worksheet, "B6", data['testDate'], self.wd)
 
         _write_center(worksheet, "C3", "用例总数", self.wd)
